@@ -20,10 +20,10 @@
             </nav>
          </header>
          <main>
-
+            <p>TESTI TEST</p>
          </main>
          <footer>
-
+            <p>The bottom of the page</p>
          </footer>
       </div>
    </body>
