@@ -8,7 +8,15 @@
    </head>
    <body>
       <header>
-         <nav></nav>
+         <img src="" alt="logo">
+         <nav>
+            <ul>
+               <li>Menu</li>
+               <li>Find Us</li>
+               <li>About Us</li>
+               <li>Instruction</li>
+            </ul>
+         </nav>
       </header>
       <main>
 
