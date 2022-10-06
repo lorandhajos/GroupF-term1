@@ -8,7 +8,7 @@
    </head>
    <body>
       <header>
-         <img src="images/logo.svg" alt="logo">
+         <img src="images/logo.svg" alt="logo" width=133px height=64px>
          <nav>
             <ul>
                <li>Menu</li>
