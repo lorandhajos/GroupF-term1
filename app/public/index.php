@@ -7,22 +7,24 @@
       <link rel="stylesheet" href="style/styles.css">
    </head>
    <body>
-      <header>
-         <img src="images/logo.svg" alt="logo">
-         <nav>
-            <ul>
-               <li>Menu</li>
-               <li>Find Us</li>
-               <li>About Us</li>
-               <li>Instruction</li>
-            </ul>
-         </nav>
-      </header>
-      <main>
+      <div class="gridContainer">
+         <header>
+            <img src="images/logo.svg" alt="logo">
+            <nav>
+               <ul>
+                  <li>Menu</li>
+                  <li>Find Us</li>
+                  <li>About Us</li>
+                  <li>Instruction</li>
+               </ul>
+            </nav>
+         </header>
+         <main>
 
-      </main>
-      <footer>
+         </main>
+         <footer>
 
-      </footer>
+         </footer>
+      </div>
    </body>
 </html>
