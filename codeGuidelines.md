@@ -3,7 +3,7 @@
 ## Gerneal 
 
 We use camelCase writing our code<br>
-Example for camelCase:  variableOne ; functionDoSomething
+Example for camelCase: $variableOne = "foo"; functionDoSomething();
 
 Indentation: 3 spaces<br>
 Charset: UTF-8
@@ -12,7 +12,7 @@ Charset: UTF-8
 
 ### If you want to use git make sure you
 1. Open your terminal/console 
-2. Navigate to the folder where you have the project files ´´cd GroupF-term1´´´
+2. Navigate to the folder where you have the project files ```cd GroupF-term1```
 ### To commit your changes and push your files
 1. git add . (This command adds all the files to git)
 2. git commit -m "MESSAGE" (message is necessary, always give information what you have done)
