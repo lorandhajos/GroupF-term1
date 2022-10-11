@@ -9,9 +9,9 @@
    <body>
       <div class="gridContainer">
          <header>
-            <img src="images/logo.svg" alt="logo" width=133px height=64px>
+            <img src="images/logo.svg" alt="logo" id="logo">
             <nav>
-               <ul>
+               <ul> 
                   <li>Menu</li>
                   <li>Find Us</li>
                   <li>About Us</li>
@@ -20,6 +20,14 @@
             </nav>
          </header>
          <main>
+            <!-- heroBanner --> 
+            <section class="heroBanner">
+
+            </section>
+            <!-- findUs -->
+            <section class="findUS">
+
+            </section>
             <p>TESTI TEST</p>
          </main>
          <footer>
