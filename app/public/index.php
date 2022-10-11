@@ -9,16 +9,9 @@
    <body>
       <div class="gridContainer">
          <header>
-<<<<<<< HEAD
-            <img src="images/logo.svg" alt="logo" width=133px height=64px>
-            
-			<div>
-               <ul class="head">
-=======
             <img src="images/logo.svg" alt="logo" id="logo">
             <nav>
                <ul> 
->>>>>>> d8a087080aab479adb5589951e9b5ca10a39f08d
                   <li>Menu</li>
                   <li>Find Us</li>
                   <li>About Us</li>
