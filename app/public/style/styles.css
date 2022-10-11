@@ -1,0 +1,33 @@
+/* Media queries */
+@font-face {
+   font-family: CircularStd;
+   src: url(fonte\CircularStd-Black.otf);
+}
+
+
+/* HTML Tags */
+header {
+   background-color: blueviolet;
+   grid-column: 2/7;
+}
+
+main {
+   background-color: aqua;
+   grid-column: 2/7;
+}
+
+footer {
+   background-color: yellowgreen;
+   grid-column: 2/7;
+}
+
+/* Classes */
+.gridContainer {
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+}
+
+/* IDs */
+#logo {
+   height: 300px;
+}
