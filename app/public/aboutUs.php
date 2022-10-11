@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="style/styles.css">
    </head>
    <body>
-      <header>
+      <header>Lennox
          <nav></nav>
       </header>
       <main>

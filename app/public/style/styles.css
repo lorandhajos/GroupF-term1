@@ -3,8 +3,23 @@
     grid-template-columns: repeat(7,1fr);
 }
 header{
-    background-color: blueviolet;
+	display:flex;
+	grid-template-columns: repeat(7,1fr);
+    background-color: rgb(237,229,187);
     grid-column:2/7;
+	align-items:center;
+	color:rgb(149,38,31)
+
+}
+.head{
+	display:flex;
+}
+.head ul{
+	margin
+	justify-content:space-between;
+}
+.head li{
+	list-style-type:none;
 }
 main{
     background-color: aqua;

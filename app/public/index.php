@@ -10,14 +10,16 @@
       <div class="gridContainer">
          <header>
             <img src="images/logo.svg" alt="logo" width=133px height=64px>
-            <nav>
-               <ul>
+            
+			<div>
+               <ul class="head">
                   <li>Menu</li>
                   <li>Find Us</li>
                   <li>About Us</li>
                   <li>Instruction</li>
                </ul>
-            </nav>
+			 </div>
+            
          </header>
          <main>
             <p>TESTI TEST</p>
