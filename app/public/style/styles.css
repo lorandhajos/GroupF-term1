@@ -1,9 +1,8 @@
 /* Media queries */
 @font-face {
    font-family: CircularStd;
-   src: url(fonte\CircularStd-Black.otf);
+   src: url(fonts/CircularStd/CircularStd-Black.otf);
 }
-
 
 /* HTML Tags */
 header {
