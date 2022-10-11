@@ -1,13 +1,44 @@
-/* Media queries */
-@font-face {
-   font-family: CircularStd;
-   src: url(fonts/CircularStd/CircularStd-Black.otf);
+/* Classes */
+#gridContainer {
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
 }
+/* Media queries 
+@font-face {
+   font-family: CircularStd-Bold.otf;
+   src: url(fonte\CircularStd-Black.otf);
+}
+*/
+
 
 /* HTML Tags */
-header {
-   background-color: blueviolet;
-   grid-column: 2/7;
+.header{
+	display:grid;
+	grid-template-columns: repeat(7,1fr);
+    background-color: rgb(237,229,187);
+    grid-column:2/7;
+	align-items:center;
+	color:rgb(149,38,31);
+	font-family: Ariel;
+	border-radius:20px;
+	box-shadow: 2px 2px 5px grey;
+}
+.logo{
+	height:50px;
+	width:auto;
+}
+.head{
+	grid-column:2/7;
+	
+}
+.head ul{
+	display:flex;
+	justify-content:space-between;
+	padding-left:0px;
+}
+
+.head li{
+	list-style-type:none;
 }
 
 main {
@@ -19,14 +50,16 @@ footer {
    background-color: yellowgreen;
    grid-column: 2/7;
 }
-
-/* Classes */
-.gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-
 /* IDs */
 #logo {
    height: 300px;
+}
+
+main{
+    background-color: aqua;
+    grid-column:2/7;
+}
+footer{
+    background-color: yellowgreen;
+    grid-column:2/7;
 }
