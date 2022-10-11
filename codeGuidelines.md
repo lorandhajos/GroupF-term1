@@ -1,38 +1,41 @@
-# Frontend Guidelines
+# Code guidelines
 
 ## Gerneal 
 
-We use camelCase writing our code
-example:  variableOne ; functionDoSomething
+We use camelCase writing our code<br>
+Example for camelCase:  variableOne ; functionDoSomething
 
-Indentation: 3 spaces 
+Indentation: 3 spaces<br>
 Charset: UTF-8
 
 ## Everything we code must be published through git
 
+### If you want to use git make sure you
 1. Open your terminal/console 
-2. Navigate to the folder where the hole project lies in(the hole dockercontainer) (Use CD to do that)
-3. git add . (This command adds all the files to the upload)
-4. git commit -m "MESSAGE" (message is necessary, always give information what you have done)
-5. git push (push the upload to all)
-
-To get the newest files from git(always navigate to the project folder):
-* git pull
+2. Navigate to the folder where you have the project files ´´cd GroupF-term1´´´
+### To commit your changes and push your files
+1. git add . (This command adds all the files to git)
+2. git commit -m "MESSAGE" (message is necessary, always give information what you have done)
+3. git push (push the upload to all)
+### To get the newest files from git
+4. git pull
 
 # HTML & PHP
 
 ## HTML
 
-### rules
+### Rules
 Make sure that you follow the rules and add all necessary attributes 
 for example:
-* <img src="" alt="">
+```<img src="" alt="">```
 
 ### Validate your file befor pushing
 
-use the following validator to validate your HTML: https://validator.w3.org/#validate_by_input
+* Use the following validator to validate your HTML: https://validator.w3.org/#validate_by_input
 
-### comments in HTML code
+* Use the following validator to validate your CSS:  https://jigsaw.w3.org/css-validator/#validate_by_input
+
+### Comments in HTML code
 
 Stick to the following scheme for the sections
 
@@ -50,7 +53,6 @@ Stick to the following scheme for the sections
 </main>
 ```
  
-
 ## PHP
 
 TODO 
@@ -87,22 +89,13 @@ footer {
 }
 
 /* Classes */
-
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
 }
 
 /* IDs */
-
 #logo {
    height: 300px;
 }
 ```
-
-
-
-
-
-
-
