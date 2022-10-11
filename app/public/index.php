@@ -17,8 +17,7 @@
                   <li>About Us</li>
                   <li>Instruction</li>
                </ul>
-			 </div>
-            
+            </nav>
          </header>
          <main>
             <!-- heroBanner --> 
