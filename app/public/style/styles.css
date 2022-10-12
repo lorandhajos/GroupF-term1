@@ -1,44 +1,58 @@
-/* Classes */
-#gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-/* Media queries 
+/* Media queries */
 @font-face {
-   font-family: CircularStd-Bold.otf;
-   src: url(fonte\CircularStd-Black.otf);
+   font-family: CircularStd-Black;
+   src: url(fonts/CircularStd/CircularStd-Black.otf);
 }
-*/
 
+@font-face {
+   font-family: CircularStd-BlackItalic;
+   src: url(fonts/CircularStd/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Bold;
+   src: url(fonts/CircularStd/CircularStd-Bold.otf);
+}
+
+@font-face {
+   font-family: CircularStd-BoldItalic;
+   src: url(fonts/CircularStd/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Book;
+   src: url(fonts/CircularStd/CircularStd-Book.otf);
+}
+
+@font-face {
+   font-family: CircularStd-BookItalic;
+   src: url(fonts/CircularStd/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Light;
+   src: url(fonts/CircularStd/CircularStd-Light.otf);
+}
+
+@font-face {
+   font-family: CircularStd-LightItalic;
+   src: url(fonts/CircularStd/CircularStd-LightItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Medium;
+   src: url(fonts/CircularStd/CircularStd-Medium.otf);
+}
+
+@font-face {
+   font-family: CircularStd-MediumItalic;
+   src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
+}
 
 /* HTML Tags */
-.header{
-	display:grid;
-	grid-template-columns: repeat(7,1fr);
-    background-color: rgb(237,229,187);
-    grid-column:2/7;
-	align-items:center;
-	color:rgb(149,38,31);
-	font-family: Ariel;
-	border-radius:20px;
-	box-shadow: 2px 2px 5px grey;
-}
-.logo{
-	height:50px;
-	width:auto;
-}
-.header{
-	grid-column:2/7;
-	
-}
-.header ul{
-	display:flex;
-	justify-content:space-between;
-	padding-left:0px;
-}
-
-.head li{
-	list-style-type:none;
+header {
+   background-color: blueviolet;
+   grid-column: 2/7;
 }
 
 main {
@@ -50,16 +64,14 @@ footer {
    background-color: yellowgreen;
    grid-column: 2/7;
 }
+
+/* Classes */
+.gridContainer {
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+}
+
 /* IDs */
 #logo {
    height: 300px;
-}
-
-main{
-    background-color: aqua;
-    grid-column:2/7;
-}
-footer{
-    background-color: yellowgreen;
-    grid-column:2/7;
 }
