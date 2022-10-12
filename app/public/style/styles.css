@@ -48,11 +48,6 @@
    font-family: CircularStd-MediumItalic;
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
-/* Classes */
-#gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
 
 /* HTML Tags */
 header {
