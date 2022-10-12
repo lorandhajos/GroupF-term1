@@ -67,6 +67,7 @@ header {
 }
 nav{
 	grid-column:2/7;
+	font-family:Caveat;
 	
 }
 nav ul{
@@ -87,6 +88,11 @@ main {
 footer {
    background-color: yellowgreen;
    grid-column: 2/7;
+}
+
+a{
+	text-decoration: none;
+	color:rgb(149,38,31);
 }
 
 /* Classes */
