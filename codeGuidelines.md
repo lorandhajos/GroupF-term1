@@ -8,6 +8,8 @@ Example for camelCase: $variableOne = "foo"; functionDoSomething();
 Indentation: 3 spaces<br>
 Charset: UTF-8
 
+Make sure to leave an empty new line at the end of every page!
+
 ## Everything we code must be published through git
 
 ### If you want to use git make sure you
