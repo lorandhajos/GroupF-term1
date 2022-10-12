@@ -27,11 +27,11 @@
 	height:50px;
 	width:auto;
 }
-.head{
+.header{
 	grid-column:2/7;
 	
 }
-.head ul{
+.header ul{
 	display:flex;
 	justify-content:space-between;
 	padding-left:0px;
