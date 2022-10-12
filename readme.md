@@ -61,3 +61,9 @@ Everyone has their own branch to work on. Make sure you use that one.
 2. git revert GIT_COMMIT_HASH
 3. git commit -m "MESSAGE"
 4. git push
+
+### To sync your branch to master
+1. Make sure you are in your branch
+2. git fetch origin
+3. git merge origin/master
+4. (optional) fix merge conflicts
