@@ -2,7 +2,7 @@
 <html>
 <link rel="stylesheet" href="style/styles.css">
 
-<div id="gridContainer">
+<div class="gridContainer">
 	<header>
 		<img class="logo" src="images/logo.svg" alt="logo">
 		<nav>
@@ -12,6 +12,6 @@
 				<li>About Us</li>
 				<li>Instruction</li>
 			</ul>
-		</nav	>
+		</nav>
 	</header>
 </div>
