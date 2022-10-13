@@ -5,7 +5,7 @@
 
    <div class="gridContainer">
       <header>
-         <img class="logo" src="images/logo.svg" alt="logo">
+         <img id="logo" src="images/logo.svg" alt="logo">
          <nav>
             <ul> 
                <li><a href="menu.php">Menu</a></li>
