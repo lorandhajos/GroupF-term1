@@ -56,7 +56,8 @@ header {
 }
 
 body {
-   background-color: #EDE5BB;
+   background-image: url("../images/background.svg");
+   background-repeat: no-repeat;
 }
 
 main {
