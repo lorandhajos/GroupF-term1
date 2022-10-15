@@ -16,8 +16,10 @@ main {
 }
 
 footer {
-   background-color: yellowgreen;
+   background-color: #EDE5BB;
    grid-column: 2/7;
+   color: #95261F;
+   font-family: CircularStd;
 }
 
 /* Classes */
@@ -26,7 +28,26 @@ footer {
    grid-template-columns: repeat(7,1fr);
 }
 
+.footerLink {
+   text-decoration: none;
+   color: #95261F;
+}
+
+.footerLink > img {
+   padding: 5px;
+   width: 50;
+   height: 40;
+}
+.verticalLine {
+   border-right: thick solid #95261F;
+}
+
 /* IDs */
 #logo {
    height: 300px;
+}
+
+#footerFlex {
+   display: flex;
+   justify-content: space-between;
 }
