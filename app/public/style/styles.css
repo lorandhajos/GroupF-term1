@@ -61,15 +61,6 @@ header {
 }
 
 /* Classes */
-.gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-
-.logo {
-   height: 50px;
-   width: auto;
-}
 
 nav {
    grid-column: 2/7;
@@ -131,6 +122,11 @@ main h2 {
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
+}
+
+.logo {
+   height: 50px;
+   width: auto;
 }
 
 .recipe {
@@ -202,7 +198,73 @@ main h2 {
    margin-left: 4%;
 }
 
+.subGrid {
+   display: grid;
+   grid-template-columns: repeat(8,1fr);
+   margin-bottom: 50px;
+}
+
+.mapsFrame {
+   grid-column: 1/5;
+   margin-left: 60px;
+
+}
+
+.sideContent {
+   grid-column: 5/9;
+   margin-right: 60px;
+   margin-left: 135px;
+   
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sideContent p {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+}
+
+.sideContent div h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent table {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+   line-height: 1.7;
+}
+
+.boldParagraph {
+   font-weight: bold;
+}
+
+
 /* IDs */
 #logo {
    height: 300px;
+}
+
+#findUsHeading {
+   margin-right: 60px;
+   margin-left: 60px;
+}
+
+#map {
+   border-style: solid;
+   border-width: 2px;
+   height: 500px;
+   width: 800px;
+}
+
+#contactContainer div p {
+   margin-right: 30px;
+}
+
+#contactContainer div p {
+   line-height: 0.7;
+}
+
+#emailBlock {
+   margin-top: 50px;
 }
