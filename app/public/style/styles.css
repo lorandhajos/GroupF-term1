@@ -167,6 +167,26 @@ main h2 {
    margin: 0 25px 10px 0;
 }
 
+.signupButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
+.signUp {
+   display:grid;
+   justify-content:center;
+}
+
 .recipe img {
    border-radius: 50px;
    width: 276px;
@@ -200,6 +220,7 @@ main h2 {
 .content div {
    margin-right: auto;
    margin-left: 4%;
+   margin-right:60px;
 }
 
 /* IDs */
