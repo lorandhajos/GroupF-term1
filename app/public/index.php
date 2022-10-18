@@ -1,3 +1,9 @@
+<?php
+   if (isset($_GET['page'])) {
+      $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_SPECIAL_CHARS);
+   }
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
    <head>
@@ -9,29 +15,46 @@
    <body>
       <div class="gridContainer">
          <header>
-            <img src="images/logo.svg" alt="logo" id="logo">
+            <img class="logo" src="images/logo.svg" alt="logo">
             <nav>
                <ul> 
-                  <li>Menu</li>
-                  <li>Find Us</li>
-                  <li>About Us</li>
-                  <li>Instruction</li>
+                  <li><a href="index.php?page=menu">Menu</a></li>
+                  <li><a href="index.php?page=findUs">Find Us</a></li>
+                  <li><a href="index.php?page=aboutUs">About Us</a></li>
+                  <li><a href="index.php?page=instruction">Instruction</a></li>
                </ul>
             </nav>
          </header>
          <main>
-            <!-- heroBanner --> 
-            <section class="heroBanner">
+            <?php
+               if (isset($_GET['page'])) {
+                  switch($page) {
+                     case "menu":
+                     include("menu.php");
+                     break;
 
-            </section>
-            <!-- findUs -->
-            <section class="findUS">
+                     case "findUs":
+                     include("findUs.php");
+                     break;
 
-            </section>
-            <p>TESTI TEST</p>
+                     case "aboutUs":
+                     include("aboutUs.php");
+                     break;
+
+                     case "instruction":
+                     include("instruction.php");
+                     break;
+
+                     default:
+                     include("home.php");
+                  }
+               } else {
+                  include("home.php");
+               }
+            ?>
          </main>
          <footer>
-            <p>The bottom of the page</p>
+            <?php include("footer.php"); ?>
          </footer>
       </div>
    </body>

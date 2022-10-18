@@ -56,19 +56,9 @@ header {
    background-color: #EDE5BB;
    grid-column: 2/7;
    align-items: center;
-   border-radius: 20px;
-   box-shadow: 2px 2px 5px grey;
-}
-
-/* Classes */
-.gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-
-.logo {
-   height: 50px;
-   width: auto;
+   border-radius: 50px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+   margin-bottom: 21px;
 }
 
 nav {
@@ -131,6 +121,12 @@ main h2 {
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
+}
+
+.logo {
+   object-fit: contain;
+   height: 100px;
+   width: auto;
 }
 
 .recipe {
@@ -203,6 +199,3 @@ main h2 {
 }
 
 /* IDs */
-#logo {
-   height: 300px;
-}
