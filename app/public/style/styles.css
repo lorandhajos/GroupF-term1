@@ -183,8 +183,8 @@ main h2 {
 }
 
 .signUp {
-   display:grid;
-   justify-content:center;
+   display: grid;
+   justify-content: center;
 }
 
 .recipe img {
@@ -220,7 +220,27 @@ main h2 {
 .content div {
    margin-right: auto;
    margin-left: 4%;
-   margin-right:60px;
+}
+.lessonContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+.lessonContent div p {
+   position: relative;
+   left: 10px;
+   font-family: CircularStd-Light;
+   font-size: 1.8em;
+   margin-top: 15px;
+}
+
+.lessonContent div {
+   margin-right: auto;
+   margin-left: 4%;
+   margin-right: 4%;
 }
 
 /* IDs */

@@ -35,8 +35,10 @@
                      <a href="#" class="button">Learn More</a>
                   </div>
                </div>
-                  <h2>Lessons</h2>
-               <div class="content">
+			</section>
+			<section class="lessonContent">
+               <h2>Lessons</h2>
+               <div>
                   <div>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisi augue, euismod id purus sed, dignissim dignissim arcu. Nunc facilisis purus a dignissim faucibus. 
                         Pellentesque nec semper sapien. Quisque elementum quam metus, sit amet placerat nulla vulputate eu. Sed nec volutpat elit, sed mattis nunc. 
