@@ -34,7 +34,7 @@
                </div>
 
                <div id="line3">
-                  <img src="images/macaron1.jpg">
+                  <img src="images/macaron1.jpg" alt="line3 pic">
                   <p>Using our specific choices
                      regarding decorations, furniture 
                      and line of products, our 
