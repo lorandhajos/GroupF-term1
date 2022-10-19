@@ -170,3 +170,88 @@ main h2 {
 #logo {
    height: 300px;
 }
+
+#aboutUs {
+   padding: 30px;
+}
+
+#aboutUs h1 {
+   font-size: 42px;
+   text-align: center;
+}
+
+#line1 {
+   display: flex;
+   align-items: center;
+   white-space: pre-line;
+}
+
+#line1 p {
+   background-color: #95261F;
+   border-radius: 30px;
+   color: #EDE5BB;
+   padding: 20px;
+   margin: 0;
+   font-size: 20px;
+   font-weight: bold;
+   height: 100%;
+
+}
+
+#pic1  {
+   border-radius: 30px;
+   border: 2px solid #95261F;
+   height: 200px;
+   width: 300px;
+   margin-left: 50px;
+   margin-right: -50px;
+   align-self: flex-start;
+}
+
+#pic2 {
+   border-radius: 30px;
+   border: 2px solid #95261F;
+   height: 200px;
+   width: 300px;
+   align-self: flex-end;
+}
+
+#line2 {
+   padding-left: 60px;
+   padding-right: 60px;
+   font-size: 32px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+#line3 {
+   display: flex;
+   white-space: pre-line;
+   height: 400px;
+}
+
+#line3 p {
+   border-radius: 30px;
+   padding: 20px;
+   background-color: #95261F;
+   color: #EBE5BB;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0px;
+}
+
+#line3 img {
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   margin-right: -40px;
+   max-width: 100%;
+   flex: 70%;
+}
+
+#line4 {
+   padding-left: 60px;
+   padding-right: 60px;
+   font-size: 32px;
+   font-weight: bold;
+   font-style: italic;
+}
