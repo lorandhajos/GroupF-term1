@@ -20,6 +20,10 @@ footer {
    grid-column: 2/7;
    color: #95261F;
    font-family: CircularStd;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 30px;
 }
 
 /* Classes */
@@ -39,7 +43,8 @@ footer {
    height: 40;
 }
 .verticalLine {
-   border-right: thick solid #95261F;
+   border-right: solid #95261F;
+   padding-right: 5px;
 }
 
 /* IDs */
