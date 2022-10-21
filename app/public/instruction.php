@@ -35,7 +35,7 @@
                      <a href="#" class="button">Learn More</a>
                   </div>
                </div>
-			</section>
+            </section>
 			<section class="lessonContent">
                <h2>Lessons</h2>
                <div>
