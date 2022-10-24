@@ -49,6 +49,74 @@
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
 
+@media (max-width: 576px) {
+   main {
+      border-radius: 0px !important;
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+   }
+
+   h1 {
+      text-align: left !important;
+   }
+
+   h3 {
+      font-size: 5vw !important;
+   }
+
+   .gridContainer {
+      display: block !important;
+   }
+
+   #aboutUs {
+
+   }
+
+   #line1 {
+      flex-direction: column;
+   }
+
+   #line1text {
+      font-size: 5.5vw !important;
+   }
+
+   #pic1 {
+      margin-top: 50px !important;
+      margin-left: 0 !important;
+      height: 30vw !important;
+      width: 50vw !important;
+   }
+
+   #pic2 {
+      margin-left: 0 !important;
+      margin-top: -50px !important;
+      height: 30vw !important;
+      width: 50vw !important;
+   }
+
+   #line2 {
+      padding: 0px !important;
+   }
+
+   #line3 {
+      flex-direction: column;
+      height: unset !important;
+   }
+
+   #line3text {
+
+   }
+
+   #line3 img {
+      border-radius: 30px;
+      margin-bottom: 20px;
+   }
+
+   #line4 {
+      font-size: 5.5vw !important;
+      padding: 0 !important;
+   }
+}
+
 /* HTML Tags */
 header {
    background-color: blueviolet;
@@ -269,3 +337,4 @@ main h2 {
    font-weight: bold;
    font-style: italic;
 }
+
