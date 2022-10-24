@@ -19,12 +19,12 @@
                </a>
             </div>
             <div>
-               <h4>Working Hours:</h4>
+               <h4> <b> Working Hours: </b> </h4>
                <p>8:00-16:00 Mon-Fri</p>
                <p>9:00-13:00 Sat-Sun</p>
             </div>
             <div class="verticalLine"> 
-               <h4> Menu </h4>
+               <h4> <b> Menu </b> </h4>
             </div>
             <div>
                <p> <a href="menu.php" class="footerLink">Menu</a> </p>
@@ -34,7 +34,7 @@
                <p> <br> </p>
             </div>
             <div class="verticalLine"> 
-               <h4> Contact </h4>
+               <h4> <b> Contact </b> </h4>
             </div>
             <div>
                <p>OUI cafe</p>
