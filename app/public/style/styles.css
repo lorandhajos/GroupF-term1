@@ -176,8 +176,12 @@ main h2 {
 }
 
 #aboutUs h1 {
-   font-size: 42px;
+   font-size: 2.5em;
    text-align: center;
+}
+
+#aboutUs h3 {
+   font-size: 2em;
 }
 
 #line1 {
@@ -187,12 +191,16 @@ main h2 {
 }
 
 #line1 p {
+   margin: 0;
+}
+
+#line1text {
    background-color: #95261F;
    border-radius: 30px;
    color: #EDE5BB;
    padding: 20px;
-   margin: 0;
    font-size: 20px;
+   margin: 0;
    font-weight: bold;
    height: 100%;
 
@@ -217,9 +225,10 @@ main h2 {
 }
 
 #line2 {
-   padding-left: 60px;
-   padding-right: 60px;
-   font-size: 32px;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    font-weight: bold;
    font-style: italic;
 }
@@ -231,6 +240,10 @@ main h2 {
 }
 
 #line3 p {
+   margin: 0;
+}
+
+#line3text {
    border-radius: 30px;
    padding: 20px;
    background-color: #95261F;
@@ -249,9 +262,10 @@ main h2 {
 }
 
 #line4 {
-   padding-left: 60px;
-   padding-right: 60px;
-   font-size: 32px;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    font-weight: bold;
    font-style: italic;
 }
