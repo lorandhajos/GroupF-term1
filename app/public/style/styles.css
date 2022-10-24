@@ -202,6 +202,49 @@ main h2 {
    margin-left: 4%;
 }
 
+.heroBanner {
+   height: 479px;
+   background-image: url("../images/cafe.jpg");
+   background-size: cover;
+   background-position: center;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heroBanner h1 {
+   font-family: Caveat;
+   font-size: 4em;
+}
+
+.products {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.products h2 {
+   width: 100%;
+   text-align: center;
+}
+
+.product {
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.product img {
+   border-radius: 10%;
+   height: 150px;
+   width: 200px;
+}
+
 /* IDs */
 #logo {
    height: 300px;
