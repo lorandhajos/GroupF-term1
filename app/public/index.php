@@ -11,6 +11,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>OUI</title>
       <link rel="stylesheet" href="style/styles.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+      <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+      <link rel="icon" type="image/png" href="/images/favicon.png">
    </head>
    <body>
       <div class="gridContainer">

@@ -64,6 +64,7 @@ header {
 nav {
    grid-column: 2/7;
    font-family: Caveat;
+   font-size: 1.5em;
 }
 
 nav ul {
