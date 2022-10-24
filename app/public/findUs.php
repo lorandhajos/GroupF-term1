@@ -6,10 +6,9 @@
       <title>OUI</title>
       <link rel="stylesheet" href="style/styles.css">
       <!-- leaflet libary -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="">
       <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-     
+      <script src="script/map.js"></script>
    </head>
    <body>
       <div class="gridContainer">
@@ -27,10 +26,10 @@
          <main>
          <h2 id="findUsHeading"> Visit us!</h2>
          <!-- Google Maps frame -->
-         <article class="subGrid">
-            <section class="mapsFrame">
+         <div class="subGrid">
+            <div class="mapsFrame">
                <div id="map"></div>
-            </section>
+            </div>
             <!-- Side content -->
             <section class="sideContent">
                <div id="contactContainer">
@@ -60,12 +59,11 @@
                   </table>
                </div>
             </section>
-           </article>
+         </div>
          </main>
          <footer>
 
          </footer>
       </div>
    </body>
-   <script src="\script\map.js"></script>
 </html>

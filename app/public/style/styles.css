@@ -207,7 +207,6 @@ main h2 {
 .mapsFrame {
    grid-column: 1/5;
    margin-left: 60px;
-
 }
 
 .sideContent {
@@ -238,7 +237,6 @@ main h2 {
 .boldParagraph {
    font-weight: bold;
 }
-
 
 /* IDs */
 #logo {
