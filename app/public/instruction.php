@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>OUI</title>
       <link rel="stylesheet" href="style/styles.css">
+      <script src="script/form.js" defer></script>
    </head>
    <body>
       <div class="gridContainer">
@@ -48,10 +49,19 @@
                      </div>
                   </div>
                </div>
+               <div id="form">
+                  <h3>Sign Up</h3>
+                  <form action="yes" method="POST">
+                     <input type="text" placeholder="name">
+                     <input type="email" placeholder="email">
+                     <input type="tel" placeholder="phone">
+                     <input type="submit" id="submit" value="Submit">
+                  </form>
+               </div>
             </section>
+            <div id="formBg"></div>
          </main>
          <footer>
-
          </footer>
       </div>
    </body>
