@@ -33,7 +33,6 @@
                   <p><a href="findUs.php" class="footerLink">Find Us</a></p>
                   <p><a href="aboutUs.php" class="footerLink">About Us</a></p>
                   <p><a href="instructions.php" class="footerLink">Instructions</a></p>
-                  <p></p>
                </div>
             </div>
             <div class="textContainer">
