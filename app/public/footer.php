@@ -20,14 +20,15 @@
             </div>
             <div>
                <h4><b>Working Hours:</b></h4>
-               <p>8:00-16:00 Mon-Fri</p>
-               <p>9:00-13:00 Sat-Sun</p>
+               <p>8:00-18:00 Mon-Fri</p>
+               <p>8:00-16:00 Sat-Sun</p>
             </div>
             <div class="textContainer">
                <div class="verticalLine"> 
                   <h4><b>Menu</b></h4>
                </div>
                <div>
+                  <p><a href="index.php" class="footerLink">Home</a></p>
                   <p><a href="menu.php" class="footerLink">Menu</a></p>
                   <p><a href="findUs.php" class="footerLink">Find Us</a></p>
                   <p><a href="aboutUs.php" class="footerLink">About Us</a></p>
@@ -40,10 +41,10 @@
                   <h4><b>Contact</b></h4>
                </div>
                <div>
-                  <p>OUI cafe</p>
-                  <p>1 Main Rd.</p>
-                  <p></p>
-                  <p>Phone: +1111111111</p>
+                  <p>OUI coffeeshop</p>
+                  <p>A.L. Lesturgeonstraat 3,</p>
+                  <p>7815 VD Emmen</p>
+                  <p>Phone: +31 112 113 1114</p>
                   <p>Email: contact@oui.com</p>
                </div>
             </div>
