@@ -248,6 +248,12 @@ main h2 {
    height: 300px;
 }
 
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 #formBg {
    display: none;
    position: fixed;
@@ -258,6 +264,7 @@ main h2 {
    height: 100%;
    background-color: rgb(217,217,217);
    background-color: rgba(217,217,217,0.5);
+   animation: fadeIn 2s;
 }
 
 #form {
@@ -272,6 +279,12 @@ main h2 {
    background-color: #EDE5BB;
    width: 50%;
    text-align: center;
+   animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 #form form {
@@ -318,3 +331,4 @@ main h2 {
    margin-top: 15px;
    font-weight: bold;
 }
+
