@@ -56,15 +56,15 @@ header {
    background-color: #EDE5BB;
    grid-column: 2/7;
    align-items: center;
-   border-radius: 20px;
-   box-shadow: 2px 2px 5px grey;
+   border-radius: 50px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+   margin-bottom: 21px;
 }
-
-/* Classes */
 
 nav {
    grid-column: 2/7;
    font-family: Caveat;
+   font-size: 1.5em;
 }
 
 nav ul {
@@ -79,6 +79,8 @@ nav li {
 
 body {
    background-color: #EDE5BB;
+   background-image: url("../images/background.svg");
+   background-repeat: no-repeat;
 }
 
 main {
@@ -125,7 +127,8 @@ main h2 {
 }
 
 .logo {
-   height: 50px;
+   object-fit: contain;
+   height: 100px;
    width: auto;
 }
 
@@ -163,6 +166,26 @@ main h2 {
    margin: 0 25px 10px 0;
 }
 
+.signupButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
+.signUp {
+   display: grid;
+   justify-content: center;
+}
+
 .recipe img {
    border-radius: 50px;
    width: 276px;
@@ -196,6 +219,27 @@ main h2 {
 .content div {
    margin-right: auto;
    margin-left: 4%;
+}
+.lessonContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+.lessonContent div p {
+   position: relative;
+   left: 10px;
+   font-family: CircularStd-Light;
+   font-size: 1.8em;
+   margin-top: 15px;
+}
+
+.lessonContent div {
+   margin-right: auto;
+   margin-left: 4%;
+   margin-right: 4%;
 }
 
 .subGrid {
@@ -243,10 +287,6 @@ main h2 {
 }
 
 /* IDs */
-#logo {
-   height: 300px;
-}
-
 #findUsHeading {
    grid-column: 2/16;
    padding: 30px 0px 30px 0px;
