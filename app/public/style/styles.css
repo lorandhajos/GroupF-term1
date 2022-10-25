@@ -18,6 +18,9 @@ main {
 footer {
    background-color: #EDE5BB;
    grid-column: 2/7;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
    color: #95261F;
    font-family: CircularStd;
    padding-top: 10px;
@@ -53,6 +56,5 @@ footer {
 }
 
 #footerFlex {
-   display: flex;
-   justify-content: space-between;
+   
 }
