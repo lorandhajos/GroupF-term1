@@ -308,6 +308,9 @@ main h2 {
    border-radius: 50px;
    font-family: 'Circular Std Book Italic', serif;
    font-size: 2em;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
 }
 
 .menu {
@@ -319,11 +322,6 @@ main h2 {
 .menu .page {
    width: 45%;
    margin: 0 auto;
-}
-
-.menuGrid {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
 }
 
 .menuGrid p {
