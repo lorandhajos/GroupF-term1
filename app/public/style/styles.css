@@ -49,6 +49,16 @@
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
 
+@media print {
+   body * {
+      visibility: hidden;
+   }
+
+   main * {
+      visibility: visible;
+   }
+}
+
 /* HTML Tags */
 header {
    display: grid;
