@@ -334,6 +334,13 @@ main p {
    width: auto;
 }
 
+.product h3 {
+   font-family: CircularStd-Light;
+   font-size: 2em;
+   margin: 14px 0;
+   font-weight: unset;
+}
+
 .lessonContent {
    display: flex;
    flex-direction: column;
