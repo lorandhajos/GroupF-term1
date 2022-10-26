@@ -1,7 +1,7 @@
 <section class="homeInstructionsBox">
 	<h2 class="instructionsTitle">Instructions</h2>
 	<div class="instructionsFlex">
-		<img src="images/bakeCroissant.jpg" class="bakeCroissantsImg">
+		<img src="images/bakeCroissant.jpg" alt="Making croissants" class="bakeCroissantsImg">
 		<div class="textImgFlex">
 			<div>
 				<p>Want to bake croissants like we do?</p>
