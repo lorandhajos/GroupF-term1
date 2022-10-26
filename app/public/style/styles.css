@@ -214,29 +214,11 @@ main h2 {
    border-radius: 30px;
    color: #EDE5BB;
    padding: 20px;
-   font-size: 1.2em;
+   font-size: 1.5vw;
    font-weight: bold;
-   margin-right: 5vw;
-   width: 51vw;
+   margin-right: 2vw;
+   width: 100%;
 
-}
-
-#pic1  {
-   border-radius: 30px;
-   border: 2px solid #95261F;
-   height: auto;
-   width: 20vw;
-   margin-left: 3vw;
-   margin-right: -3vw;
-   align-self: flex-start;
-}
-
-#pic2 {
-   border-radius: 30px;
-   border: 2px solid #95261F;
-   height: auto;
-   width: 20vw;
-   align-self: flex-end;
 }
 
 #line1pictures {
@@ -268,7 +250,7 @@ main h2 {
    padding: 20px;
    background-color: #95261F;
    color: #EBE5BB;
-   font-size: 1.2em;
+   font-size: 1.5vw;
    font-weight: bold;
 }
 
