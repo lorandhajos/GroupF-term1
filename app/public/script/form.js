@@ -11,6 +11,7 @@ button.onclick = function() {
 submit.onclick = function() {
    form.style.display = "none";
    formBg.style.display = "none";
+   alert("Your details have been submitted successfully");
 }
 
 window.onclick = function(event) {
