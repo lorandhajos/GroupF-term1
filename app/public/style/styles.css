@@ -219,7 +219,6 @@ main h2 {
 }
 
 .drinks{
-
     grid-column-start: 1;
     grid-column-end: 2;
     position: absolute;
