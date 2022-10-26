@@ -1,8 +1,54 @@
 /* Media queries */
 @font-face {
-   font-family: CircularStd;
+   font-family: CircularStd-Black;
    src: url(fonts/CircularStd/CircularStd-Black.otf);
 }
+
+@font-face {
+   font-family: CircularStd-BlackItalic;
+   src: url(fonts/CircularStd/CircularStd-BlackItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Bold;
+   src: url(fonts/CircularStd/CircularStd-Bold.otf);
+}
+
+@font-face {
+   font-family: CircularStd-BoldItalic;
+   src: url(fonts/CircularStd/CircularStd-BoldItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Book;
+   src: url(fonts/CircularStd/CircularStd-Book.otf);
+}
+
+@font-face {
+   font-family: CircularStd-BookItalic;
+   src: url(fonts/CircularStd/CircularStd-BookItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Light;
+   src: url(fonts/CircularStd/CircularStd-Light.otf);
+}
+
+@font-face {
+   font-family: CircularStd-LightItalic;
+   src: url(fonts/CircularStd/CircularStd-LightItalic.otf);
+}
+
+@font-face {
+   font-family: CircularStd-Medium;
+   src: url(fonts/CircularStd/CircularStd-Medium.otf);
+}
+
+@font-face {
+   font-family: CircularStd-MediumItalic;
+   src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
+}
+
 
 /* HTML Tags */
 header {
@@ -20,10 +66,14 @@ footer {
    grid-column: 2/7;
    color: #95261F;
    font-family: CircularStd;
+   border-radius: 50px;
    padding-top: 10px;
    padding-bottom: 5px;
    padding-left: 10px;
    padding-right: 30px;
+}
+p {
+   font-family: CircularStd-Light;
 }
 
 /* Classes */
