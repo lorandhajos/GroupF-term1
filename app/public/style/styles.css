@@ -61,26 +61,27 @@
 
 /* HTML Tags */
 header {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
+   display: flex;
    background-color: #EDE5BB;
    grid-column: 2/7;
    align-items: center;
    border-radius: 50px;
    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
    margin: 21px 0;
+   height: 100px;
 }
 
 nav {
-   grid-column: 2/7;
    font-family: Caveat;
-   font-size: 1.5em;
+   font-size: 1.8em;
+   width: 100%;
+   margin: 0 4%;
 }
 
 nav ul {
    display: flex;
    justify-content: space-between;
-   padding-left: 0px;
+   padding: 0;
 }
 
 nav li {
@@ -198,7 +199,6 @@ main p {
 }
 
 .logo {
-   object-fit: contain;
    height: 100px;
    width: auto;
 }
