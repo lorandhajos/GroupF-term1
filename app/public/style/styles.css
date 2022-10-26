@@ -49,6 +49,16 @@
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
 
+@media print {
+   body * {
+      visibility: hidden;
+   }
+
+   main * {
+      visibility: visible;
+   }
+}
+
 /* HTML Tags */
 header {
    display: grid;
@@ -56,24 +66,15 @@ header {
    background-color: #EDE5BB;
    grid-column: 2/7;
    align-items: center;
-   border-radius: 20px;
-   box-shadow: 2px 2px 5px grey;
-}
-
-/* Classes */
-.gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-
-.logo {
-   height: 50px;
-   width: auto;
+   border-radius: 50px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+   margin-bottom: 21px;
 }
 
 nav {
    grid-column: 2/7;
    font-family: Caveat;
+   font-size: 1.5em;
 }
 
 nav ul {
@@ -88,6 +89,8 @@ nav li {
 
 body {
    background-color: #EDE5BB;
+   background-image: url("../images/background.svg");
+   background-repeat: no-repeat;
 }
 
 main {
@@ -100,8 +103,17 @@ main {
 }
 
 footer {
-   background-color: yellowgreen;
+   background-color: #EDE5BB;
    grid-column: 2/7;
+   color: #95261F;
+   text-align: center;
+   font-family: CircularStd;
+   border-radius: 50px;
+   padding-top: 10px;
+   padding-left: 20px;
+}
+footer > h5 {
+   font-family: CircularStd-Light;
 }
 
 a {
@@ -131,6 +143,34 @@ main h2 {
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
+}
+
+.footerLink {
+   text-decoration: none;
+   color: #95261F;
+}
+
+.footerLink > img {
+   padding: 5px;
+   width: 50;
+   height: 40;
+}
+
+.textContainer {
+   display: flex;
+   justify-content: space-around;
+}
+
+.verticalLine {
+   border-right: solid #95261F;
+   padding-right: 10px;
+   margin-right: 5px;
+}
+
+.logo {
+   object-fit: contain;
+   height: 100px;
+   width: auto;
 }
 
 .recipe {
@@ -165,6 +205,26 @@ main h2 {
    justify-content: center;
    align-items: center;
    margin: 0 25px 10px 0;
+}
+
+.signupButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
+.signUp {
+   display: grid;
+   justify-content: center;
 }
 
 .recipe img {
@@ -251,9 +311,286 @@ main h2 {
 .product h3 {
    font-family: CircularStd;
 }
+
+.lessonContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+.lessonContent div p {
+   position: relative;
+   left: 10px;
+   font-family: CircularStd-Light;
+   font-size: 1.8em;
+   margin-top: 15px;
+}
+
+.lessonContent div {
+   margin-right: auto;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+
+.subGrid {
+   display: grid;
+   grid-template-columns: repeat(16,1fr);
+   margin-bottom: 50px;
+}
+
+.mapsFrame {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.mapsFrame h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sideContent p {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+}
+
+.sideContent div h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent table {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+   line-height: 1.7;
+}
+
+.boldParagraph {
+   font-weight: bold;
+}
+
+.drinks {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   position: absolute;
+}
+
+.drinkText {
+   position: absolute;
+   left: 65px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.menuContext {
+   box-sizing: border-box;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 2em;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 45px;
+}
+
+.menu .page {
+   width: 45%;
+   margin: 0 auto;
+}
+
+.menuGrid p {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.lastMenu {
+   text-align: center;
+}
+
+.bakedGoods {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   position: absolute;
+}
+
+.bakedGoodsText {
+   position: absolute;
+   width: 377px;
+   height: 75px;
+   left :20px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.bakedGoodsContext {
+   box-sizing: border-box;
+   position: absolute;
+   width: 668px;
+   height: 787px;
+   left: 20px;
+   top: 133px;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 40px;
+}
+
+.pictures:first-of-type {
+   grid-column: 1 / span 2;
+   grid-row: 2 / span 2;
+}
+
+.pictures:last-of-type {
+   grid-column: 2 / span 2;
+   grid-row: 1 / span 2;
+}
+
 /* IDs */
-#logo {
-   height: 300px;
+#findUsHeading {
+   grid-column: 2/16;
+   padding: 30px 0px 30px 0px;
+   display: flex;
+   justify-content: center;
+}
+
+#map {
+   border-style: solid;
+   border-width: 2px;
+   height: 48em;
+   width: 80em;
+}
+
+#contactContainer div p {
+   margin-right: 30px;
+}
+
+#contactContainer div p {
+   line-height: 0.7;
+}
+
+#emailBlock {
+   margin-top: 50px;
+}
+
+#aboutUs {
+   padding: 30px;
+}
+
+#aboutUs h1 {
+   font-size: 2.5em;
+   text-align: center;
+}
+
+#aboutUs h3 {
+   font-size: 2em;
+}
+
+#line1 {
+   display: flex;
+   white-space: pre-line;
+   justify-content: space-between;
+}
+
+#line1 p {
+   margin: 0;
+}
+
+#line1 img {
+   width: 100%;
+   border-radius: 30px;
+   border: 2px solid #95261F;
+}
+
+#line1text {
+   background-color: #95261F;
+   border-radius: 30px;
+   color: #EDE5BB;
+   padding: 20px;
+   font-size: 1.5vw;
+   font-weight: bold;
+}
+
+#line1pictures {
+   display: grid;
+   grid-template-rows: 1fr;
+   width: 50%;
+}
+
+#line2 {
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+#line3 {
+   display: flex;
+   white-space: pre-line;
+}
+
+#line3 p {
+   margin: 0;
+}
+
+#line3text {
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   padding: 20px;
+   background-color: #95261F;
+   color: #EBE5BB;
+   font-size: 1.5vw;
+   font-weight: bold;
+}
+
+#line3 img {
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   width: 100%;
+   flex: 60%;
+   height: auto;
+}
+
+#line4 {
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+#footerFlex {
+   display: flex;
+   justify-content: flex-start;
+   text-align: left;
+   gap: 3vw;
+}
+
+#footerFlex > p {
+   font-family: CircularStd-Light;
 }
 
 @media screen and (max-width: 1750px) {
