@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <!-- List of recipes -->
 <section class="recipes">
    <h2>Recipes</h2>

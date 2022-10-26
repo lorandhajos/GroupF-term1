@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <a href="index.php"><img id="logo" src="images/logo.svg" alt="logo"></a>
 <nav>
    <ul> 

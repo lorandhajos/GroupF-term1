@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <div class="box">
    <div class="drinks">
       <p class="drinkText">Drinks</p>

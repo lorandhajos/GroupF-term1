@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <article class="subGrid">
    <h2 id="findUsHeading">Visit us!</h2>
    <!-- Google Maps frame -->
