@@ -56,24 +56,15 @@ header {
    background-color: #EDE5BB;
    grid-column: 2/7;
    align-items: center;
-   border-radius: 20px;
-   box-shadow: 2px 2px 5px grey;
-}
-
-/* Classes */
-.gridContainer {
-   display: grid;
-   grid-template-columns: repeat(7,1fr);
-}
-
-.logo {
-   height: 50px;
-   width: auto;
+   border-radius: 50px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+   margin-bottom: 21px;
 }
 
 nav {
    grid-column: 2/7;
    font-family: Caveat;
+   font-size: 1.5em;
 }
 
 nav ul {
@@ -88,6 +79,8 @@ nav li {
 
 body {
    background-color: #EDE5BB;
+   background-image: url("../images/background.svg");
+   background-repeat: no-repeat;
 }
 
 main {
@@ -133,6 +126,12 @@ main h2 {
    grid-template-columns: repeat(7,1fr);
 }
 
+.logo {
+   object-fit: contain;
+   height: 100px;
+   width: auto;
+}
+
 .recipe {
    border-radius: 50px;
    outline: 4px solid #95261F;
@@ -165,6 +164,26 @@ main h2 {
    justify-content: center;
    align-items: center;
    margin: 0 25px 10px 0;
+}
+
+.signupButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
+.signUp {
+   display: grid;
+   justify-content: center;
 }
 
 .recipe img {
@@ -200,6 +219,71 @@ main h2 {
 .content div {
    margin-right: auto;
    margin-left: 4%;
+}
+.lessonContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+.lessonContent div p {
+   position: relative;
+   left: 10px;
+   font-family: CircularStd-Light;
+   font-size: 1.8em;
+   margin-top: 15px;
+}
+
+.lessonContent div {
+   margin-right: auto;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+
+.subGrid {
+   display: grid;
+   grid-template-columns: repeat(16,1fr);
+   margin-bottom: 50px;
+}
+
+.mapsFrame {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.mapsFrame h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sideContent p {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+}
+
+.sideContent div h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent table {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+   line-height: 1.7;
+}
+
+.boldParagraph {
+   font-weight: bold;
 }
 
 .box {
@@ -295,6 +379,28 @@ main h2 {
 }
 
 /* IDs */
-#logo {
-   height: 300px;
+#findUsHeading {
+   grid-column: 2/16;
+   padding: 30px 0px 30px 0px;
+   display: flex;
+   justify-content: center;
+}
+
+#map {
+   border-style: solid;
+   border-width: 2px;
+   height: 48em;
+   width: 80em;
+}
+
+#contactContainer div p {
+   margin-right: 30px;
+}
+
+#contactContainer div p {
+   line-height: 0.7;
+}
+
+#emailBlock {
+   margin-top: 50px;
 }
