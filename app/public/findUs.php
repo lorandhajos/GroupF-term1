@@ -17,7 +17,7 @@
          </div>
          <div id="emailBlock">
             <p class="boldParagraph">Email:</p>
-            <p>OUI@frenchauthenticcoffeeshop.lelele</p>
+            <p>contact@oui.com</p>
             <p class="boldParagraph">Phonenumber:</p>
             <p>+31 112 113 1114</p>
          </div>
@@ -25,10 +25,10 @@
       <div>
          <h4>Working hours:</h4>
          <table>
-            <tr><td>Monday:</td><td>8:00-15:00</td></tr>
+            <tr><td>Monday:</td><td>8:00-18:00</td></tr>
             <tr><td>Tuesday:</td><td>8:00-18:00</td></tr>
             <tr><td>Wednesday:</td><td>8:00-18:00</td></tr>
-            <tr><td>Thursday:</td><td>8:00-15:00</td></tr>
+            <tr><td>Thursday:</td><td>8:00-18:00</td></tr>
             <tr><td>Friday:</td><td>8:00-18:00</td></tr>
             <tr><td>Saturday:</td><td>8:00-16:00</td></tr>
             <tr><td>Sunday:</td><td>8:00-16:00</td></tr>
