@@ -286,22 +286,6 @@ main h2 {
    font-weight: bold;
 }
 
-.box {
-   display: grid;
-   grid-template-columns: 50% 50%;
-   position: absolute;
-   width: 1500px;
-   height: 970px;
-   position: absolute;
-   left: 10.94%;
-   right: 10.94%;
-   top: 166px;
-   bottom: 285px;
-   background: #EDE5BB;
-   box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
-   border-radius: 50px;
-}
-
 .drinks {
    grid-column-start: 1;
    grid-column-end: 2;
@@ -318,24 +302,28 @@ main h2 {
    color: #95261F;
 }
 
-.drinkContext {
+.menuContext {
    box-sizing: border-box;
-   position: absolute;
-   width: 668px;
-   height: 787px;
-   left:  65px;
-   top: 133px;
    border: 4px solid #95261F;
    border-radius: 50px;
    font-family: 'Circular Std Book Italic', serif;
-   font-size: 40px;
+   font-size: 2em;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 45px;
+}
+
+.menu .page {
+   width: 45%;
+   margin: 0 auto;
 }
 
 .menuGrid {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   position: relative;
-   left: 50px;
 }
 
 .menuGrid p {
@@ -363,19 +351,6 @@ main h2 {
    font-size: 64px;
    line-height: 75px;
    color: #95261F;
-}
-
-.bakedGoodsContext {
-   box-sizing: border-box;
-   position: absolute;
-   width: 668px;
-   height: 787px;
-   left: 20px;
-   top: 133px;
-   border: 4px solid #95261F;
-   border-radius: 50px;
-   font-family: 'Circular Std Book Italic', serif;
-   font-size: 40px;
 }
 
 /* IDs */
