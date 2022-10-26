@@ -51,7 +51,7 @@
                </div>
                <div id="form">
                   <h3>Sign Up</h3>
-                  <form action="yes" method="POST">
+                  <form action="instruction.php" method="POST">
                      <input type="text" placeholder="name">
                      <input type="email" placeholder="email">
                      <input type="tel" placeholder="phone">
