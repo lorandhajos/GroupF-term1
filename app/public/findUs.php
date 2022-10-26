@@ -17,9 +17,9 @@
          </div>
          <div id="emailBlock">
             <p><b>Email:</b></p>
-            <p>contact@oui.com</p>
+            <p><a href="mailto:contact@oui.com">contact@oui.com</a></p>
             <p><b>Phone Number:</b></p>
-            <p>+31 112 113 1114</p>
+            <p><a href="tel:+311121131114">+31 112 113 1114</a></p>
          </div>
       </div>
       <div>

@@ -40,8 +40,8 @@
          <p>OUI coffeeshop</p>
          <p>A.L. Lesturgeonstraat 3,</p>
          <p>7815 VD Emmen</p>
-         <p>Phone: +31 112 113 1114</p>
-         <p>Email: contact@oui.com</p>
+         <p>Phone: <a href="tel:+311121131114">+31 112 113 1114</a></p>
+         <p>Email: <a href="mailto:contact@oui.com">contact@oui.com</a></p>
       </div>
    </div>
 </div>

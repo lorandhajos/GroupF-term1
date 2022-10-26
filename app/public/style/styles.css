@@ -92,6 +92,14 @@ header {
    height: 100px;
 }
 
+li a:hover {
+   color: #551611;
+}
+
+p a:hover {
+   color: #551611;
+}
+
 nav {
    font-family: Caveat;
    font-size: 1.8em;
