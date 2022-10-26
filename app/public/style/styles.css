@@ -255,3 +255,18 @@ main h2 {
 #logo {
    height: 300px;
 }
+
+@media screen and (max-width: 1750px) {
+   .product img {
+      border-radius: 10%;
+      height: 180px;
+      width: auto;
+   }
+}
+@media screen and (max-width: 1540px) {
+   .product img {
+      border-radius: 10%;
+      height: 150px;
+      width: auto;
+   }
+}
