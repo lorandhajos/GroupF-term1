@@ -1,31 +1,24 @@
 # Code guidelines
 
-## Gerneal 
+## General 
 
-We use camelCase writing our code<br>
-Example for camelCase: $variableOne = "foo"; functionDoSomething();
+Use camelCase when writing code and naming files<br>
+Examples for camelCase: 
+* $variableOne = "foo";
+* functionDoSomething();
+* exampleFileName.php
 
 Indentation: 3 spaces<br>
 Charset: UTF-8
 
-## Everything we code must be published through git
-
-### If you want to use git make sure you
-1. Open your terminal/console 
-2. Navigate to the folder where you have the project files ```cd GroupF-term1```
-### To commit your changes and push your files
-1. git add . (This command adds all the files to git)
-2. git commit -m "MESSAGE" (message is necessary, always give information what you have done)
-3. git push (push the upload to all)
-### To get the newest files from git
-4. git pull
+Make sure to leave an empty new line at the end of every page!
 
 # HTML & PHP
 
 ## HTML
 
 ### Rules
-Make sure that you follow the rules and add all necessary attributes 
+Make sure that you follow the rules and add all required attributes 
 for example:
 ```<img src="" alt="">```
 
@@ -67,10 +60,9 @@ All CSS must be in the styles/styles.css file
 ```CSS
 /* Media queries */
 @font-face {
-   font-family: CircularStd;
-   src: url(fonte\CircularStd-Black.otf);
+   font-family: CircularStd-Black;
+   src: url(fonts/CircularStd/CircularStd-Black.otf);
 }
-
 
 /* HTML Tags */
 header {
