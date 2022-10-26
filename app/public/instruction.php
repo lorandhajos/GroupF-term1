@@ -36,4 +36,14 @@
          </div>
       </div>
    </div>
+   <div id="form">
+      <h3>Sign Up</h3>
+      <form method="POST">
+         <input id="name" type="text" placeholder="name" required>
+         <input id="email" type="email" placeholder="email" required>
+         <input id="tel" type="tel" placeholder="phone" required>
+         <input type="submit" id="submit" value="Submit">
+      </form>
+   </div>
 </section>
+<div id="formBg"></div>
