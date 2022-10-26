@@ -57,13 +57,6 @@
    main * {
       visibility: visible;
    }
-/*
-   #printArea * {
-      visibility: visible;
-   }
-   */
-
-
 }
 
 /* HTML Tags */
@@ -421,4 +414,3 @@ main h2 {
 #emailBlock {
    margin-top: 50px;
 }
-
