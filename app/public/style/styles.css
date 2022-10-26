@@ -334,10 +334,6 @@ main p {
    width: auto;
 }
 
-.product h3 {
-   font-family: CircularStd;
-}
-
 .lessonContent {
    display: flex;
    flex-direction: column;
