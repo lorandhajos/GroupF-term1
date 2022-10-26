@@ -28,4 +28,3 @@ window.onclick = function(event) {
       formBg.style.display = "none";
    }
 }
-
