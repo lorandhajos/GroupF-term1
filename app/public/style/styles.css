@@ -112,6 +112,7 @@ footer {
    padding-top: 10px;
    padding-left: 20px;
 }
+
 footer > h5 {
    font-family: CircularStd-Light;
 }
@@ -600,6 +601,7 @@ main h2 {
       width: auto;
    }
 }
+
 @media screen and (max-width: 1540px) {
    .product img {
       border-radius: 10%;
