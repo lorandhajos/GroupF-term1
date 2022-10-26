@@ -1,7 +1,7 @@
 <?php if(!defined("OUI")) exit; ?>
 
 <article class="subGrid">
-   <h2 id="findUsHeading">Visit us!</h2>
+   <h2 id="findUsHeading">Visit Us!</h2>
    <!-- Google Maps frame -->
    <section class="mapsFrame">
       <div id="map"></div>
