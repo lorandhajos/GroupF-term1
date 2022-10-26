@@ -304,25 +304,23 @@ main p {
    color: #EDE5BB;
    -webkit-text-stroke: 2px black;
    font-family: Caveat;
-   font-size: 4em;
+   font-size: 5em;
 }
 
-.products {
+.productFlex {
    display: flex;
-   justify-content: center;
-   width: 100%;
-   flex-direction: row;
-   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 60px;
 }
 
 .products h2 {
    font-family: Caveat;
-   width: 100%;
    text-align: center;
+   font-weight: normal;
+   font-size: 4em;
 }
 
 .product {
-   margin-right: 20px;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -330,8 +328,10 @@ main p {
 
 .product img {
    border-radius: 10%;
-   height: 200px;
+   height: 245px;
    width: auto;
+   max-width: 280px;
+   object-fit: cover;
 }
 
 .product h3 {
