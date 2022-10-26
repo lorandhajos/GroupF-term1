@@ -51,12 +51,36 @@
 
 /* HTML Tags */
 header {
-   background-color: blueviolet;
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+   background-color: #EDE5BB;
    grid-column: 2/7;
+   align-items: center;
+   border-radius: 50px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+   margin-bottom: 21px;
+}
+
+nav {
+   grid-column: 2/7;
+   font-family: Caveat;
+   font-size: 1.5em;
+}
+
+nav ul {
+   display: flex;
+   justify-content: space-between;
+   padding-left: 0px;
+}
+
+nav li {
+   list-style-type: none;
 }
 
 body {
    background-color: #EDE5BB;
+   background-image: url("../images/background.svg");
+   background-repeat: no-repeat;
 }
 
 main {
@@ -71,6 +95,11 @@ main {
 footer {
    background-color: yellowgreen;
    grid-column: 2/7;
+}
+
+a {
+   text-decoration: none;
+   color: #95261F;
 }
 
 body h2 {
@@ -95,6 +124,12 @@ main h2 {
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
+}
+
+.logo {
+   object-fit: contain;
+   height: 100px;
+   width: auto;
 }
 
 .recipe {
@@ -131,6 +166,26 @@ main h2 {
    margin: 0 25px 10px 0;
 }
 
+.signupButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
+.signUp {
+   display: grid;
+   justify-content: center;
+}
+
 .recipe img {
    border-radius: 50px;
    width: 276px;
@@ -165,6 +220,163 @@ main h2 {
    margin-right: auto;
    margin-left: 4%;
 }
+.lessonContent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+.lessonContent div p {
+   position: relative;
+   left: 10px;
+   font-family: CircularStd-Light;
+   font-size: 1.8em;
+   margin-top: 15px;
+}
+
+.lessonContent div {
+   margin-right: auto;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+
+.subGrid {
+   display: grid;
+   grid-template-columns: repeat(16,1fr);
+   margin-bottom: 50px;
+}
+
+.mapsFrame {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.mapsFrame h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sideContent p {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+}
+
+.sideContent div h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent table {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+   line-height: 1.7;
+}
+
+.boldParagraph {
+   font-weight: bold;
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   position: absolute;
+   width: 1500px;
+   height: 970px;
+   position: absolute;
+   left: 10.94%;
+   right: 10.94%;
+   top: 166px;
+   bottom: 285px;
+   background: #EDE5BB;
+   box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
+   border-radius: 50px;
+}
+
+.drinks {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   position: absolute;
+}
+
+.drinkText {
+   position: absolute;
+   left: 65px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.drinkContext {
+   box-sizing: border-box;
+   position: absolute;
+   width: 668px;
+   height: 787px;
+   left:  65px;
+   top: 133px;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 40px;
+}
+
+.menuGrid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   position: relative;
+   left: 50px;
+}
+
+.menuGrid p {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.lastMenu {
+   text-align: center;
+}
+
+.bakedGoods {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   position: absolute;
+}
+
+.bakedGoodsText {
+   position: absolute;
+   width: 377px;
+   height: 75px;
+   left :20px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.bakedGoodsContext {
+   box-sizing: border-box;
+   position: absolute;
+   width: 668px;
+   height: 787px;
+   left: 20px;
+   top: 133px;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 40px;
+}
 
 .pictures:first-of-type {
    grid-column: 1 / span 2;
@@ -177,8 +389,30 @@ main h2 {
 }
 
 /* IDs */
-#logo {
-   height: 300px;
+#findUsHeading {
+   grid-column: 2/16;
+   padding: 30px 0px 30px 0px;
+   display: flex;
+   justify-content: center;
+}
+
+#map {
+   border-style: solid;
+   border-width: 2px;
+   height: 48em;
+   width: 80em;
+}
+
+#contactContainer div p {
+   margin-right: 30px;
+}
+
+#contactContainer div p {
+   line-height: 0.7;
+}
+
+#emailBlock {
+   margin-top: 50px;
 }
 
 #aboutUs {
