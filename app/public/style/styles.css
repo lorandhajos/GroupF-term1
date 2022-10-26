@@ -392,8 +392,6 @@ main h2 {
    color: #95261F;
 }
 
-<<<<<<< HEAD
-=======
 .bakedGoodsContext {
    box-sizing: border-box;
    position: absolute;
@@ -417,7 +415,6 @@ main h2 {
    grid-row: 1 / span 2;
 }
 
->>>>>>> 6d162e930448811af86ae9bca161fe8e39e49d2c
 /* IDs */
 #findUsHeading {
    grid-column: 2/16;
