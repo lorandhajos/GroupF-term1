@@ -11,7 +11,7 @@
       <div id="contactContainer">
       <h4><b>Contact Details:</b></h4>
          <div>
-            <p>OUI Coffee shop</p>
+            <p>OUI Cafe</p>
             <p>A.L. Lesturgeonstraat 3,</p>
             <p>7815 VD Emmen</p>
          </div>

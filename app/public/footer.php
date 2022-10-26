@@ -37,7 +37,7 @@
          <h4>Contact</h4>
       </div>
       <div>
-         <p>OUI coffeeshop</p>
+         <p>OUI Cafe</p>
          <p>A.L. Lesturgeonstraat 3,</p>
          <p>7815 VD Emmen</p>
          <p>Phone: <a href="tel:+311121131114">+31 112 113 1114</a></p>
