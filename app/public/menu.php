@@ -4,51 +4,31 @@
    <div class="page">
       <h2>Drinks</h2>
       <div class="menuContext">
-         <div>
-            <p>Cappuccino</p>
-            <p>Expresso Double</p>
-            <p>Latte</p>
-            <p>The Chaud</p>
-            <p>The Glace</p>
-            <p>Un Soda</p>
-            <p>Le Lait</p>
-            <p>Lait au Chocolat</p>
-         </div>
-         <div>
-            <p>2.50€</p>
-            <p>3.00€</p>
-            <p>1.50€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-         </div>
+         <ul>
+            <li><span>Cappuccino</span><span>2.50€</span></li>
+            <li><span>Expresso Double</span><span>3.00€</span></li>
+            <li><span>Latte</span><span>1.50€</span></li>
+            <li><span>The Chaud</span><span>2.00€</span></li>
+            <li><span>The Glace</span><span>2.00€</span></li>
+            <li><span>Un Soda</span><span>2.00€</span></li>
+            <li><span>Le Lait</span><span>2.00€</span></li>
+            <li><span>Lait au Chocolat</span><span>2.00€</span></li>
+         </ul>
       </div>
    </div>
    <div class="page">
       <h2>Baked Goods</h2>
       <div class="menuContext">
-         <div>
-            <p>Le Petit Dejeuner</p>
-            <p>Croissant au Jambon</p>
-            <p>Croissant</p>
-            <p>Pain au Chocolat</p>
-            <p>Croissant aux Pommes</p>
-            <p>Tartare de Fruits</p>
-            <p>Macarons</p>
-            <p>Baguette</p>
-         </div>
-         <div>
-            <p>2.50€</p>
-            <p>3.00€</p>
-            <p>1.50€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-            <p>2.00€</p>
-         </div>
+         <ul>
+            <li><span>Le Petit Dejeuner</span><span>2.50€</span></li>
+            <li><span>Croissant au Jambon</span><span>3.00€</span></li>
+            <li><span>Croissant</span><span>1.50€</span></li>
+            <li><span>Pain au Chocolat</span><span>2.00€</span></li>
+            <li><span>Croissant aux Pommes</span><span>2.00€</span></li>
+            <li><span>Tartare de Fruits</span><span>2.00€</span></li>
+            <li><span>Macarons</span><span>2.00€</span></li>
+            <li><span>Baguette</span><span>2.00€</span></li>
+         </ul>
       </div>
    </div>
 </section>
