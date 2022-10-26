@@ -199,7 +199,7 @@ main h2 {
    border-radius: 30px;
    color: #EDE5BB;
    padding: 20px;
-   font-size: 2.5vh;
+   font-size: 1.2em;
    margin: 0;
    font-weight: bold;
    height: 100%;
@@ -210,8 +210,8 @@ main h2 {
 #pic1  {
    border-radius: 30px;
    border: 2px solid #95261F;
-   height: 22vh;
-   width: 22vw;
+   height: auto;
+   width: 20vw;
    margin-left: 3vw;
    margin-right: -3vw;
    align-self: flex-start;
@@ -220,8 +220,8 @@ main h2 {
 #pic2 {
    border-radius: 30px;
    border: 2px solid #95261F;
-   height: 22vh;
-   width: 22vw;
+   height: auto;
+   width: 20vw;
    align-self: flex-end;
 }
 
@@ -237,7 +237,6 @@ main h2 {
 #line3 {
    display: flex;
    white-space: pre-line;
-   height: 50vh;
 }
 
 #line3 p {
@@ -249,7 +248,7 @@ main h2 {
    padding: 20px;
    background-color: #95261F;
    color: #EBE5BB;
-   font-size: 2.5vh;
+   font-size: 1.2em;
    font-weight: bold;
    margin: 0px;
 }
@@ -258,8 +257,9 @@ main h2 {
    border-top-left-radius: 30px;
    border-bottom-left-radius: 30px;
    margin-right: -40px;
-   max-width: 100%;
+   width: 100%;
    flex: 60%;
+   height: auto;
 }
 
 #line4 {
