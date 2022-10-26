@@ -41,7 +41,7 @@
                <p>Email: contact@oui.com</p>
             </div>
          </div>
-         </div>
+      </div>
       <div>
          <h5>© 2022 OUI. All rights reserved.</h5>
       </div>
