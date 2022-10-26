@@ -52,14 +52,13 @@
                <div id="form">
                   <h3>Sign Up</h3>
                   <form action="instruction.php" method="POST">
-                     <input type="text" placeholder="name">
-                     <input type="email" placeholder="email">
-                     <input type="tel" placeholder="phone">
-                     <input type="submit" id="submit" value="Submit">
+                     <input id="name" type="text" placeholder="name" required>
+                     <input id="email" type="email" placeholder="email" required>
+                     <input id="tel" type="tel" placeholder="phone" required>
+                     <input type="submit" id="submit" value="Submit" required>
                   </form>
                </div>
             </section>
-            <div id="popup"></div>
             <div id="formBg"></div>
          </main>
          <footer>

@@ -264,7 +264,7 @@ main h2 {
    height: 100%;
    background-color: rgb(217,217,217);
    background-color: rgba(217,217,217,0.5);
-   animation: fadeIn 2s;
+   animation: fadeIn 0.3s;
 }
 
 #form {
@@ -279,7 +279,7 @@ main h2 {
    background-color: #EDE5BB;
    width: 50%;
    text-align: center;
-   animation: fadeIn 2s;
+   animation: fadeIn 0.3s;
 }
 
 @keyframes fadeIn {
