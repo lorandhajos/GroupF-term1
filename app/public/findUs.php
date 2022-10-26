@@ -9,21 +9,21 @@
    <!-- Side content -->
    <section class="sideContent">
       <div id="contactContainer">
-      <h4>Contactdetails:</h4>
+      <h4><b>Contact Details:</b></h4>
          <div>
             <p>OUI Coffee shop</p>
             <p>A.L. Lesturgeonstraat 3,</p>
             <p>7815 VD Emmen</p>
          </div>
          <div id="emailBlock">
-            <p class="boldParagraph">Email:</p>
+            <p><b>Email:</b></p>
             <p>contact@oui.com</p>
-            <p class="boldParagraph">Phonenumber:</p>
+            <p><b>Phone Number:</b></p>
             <p>+31 112 113 1114</p>
          </div>
       </div>
       <div>
-         <h4>Working hours:</h4>
+         <h4><b>Working Hours:</b></h4>
          <table>
             <tr><td>Monday:</td><td>8:00-18:00</td></tr>
             <tr><td>Tuesday:</td><td>8:00-18:00</td></tr>

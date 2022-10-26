@@ -148,6 +148,10 @@ main h3 {
    font-size: 1.5em;
 }
 
+main h4 {
+   margin: 10px 0;
+}
+
 main p {
    font-size: 1em;
 }
@@ -385,6 +389,10 @@ main p {
    grid-column: 2/16;
    display: flex;
    justify-content: space-evenly;
+}
+
+.sideContent b {
+   font-family: CircularStd-Book;
 }
 
 .sideContent p {
