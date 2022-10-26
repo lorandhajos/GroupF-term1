@@ -166,6 +166,16 @@ main h2 {
    margin-left: 4%;
 }
 
+.pictures:first-of-type {
+   grid-column: 1 / span 2;
+   grid-row: 2 / span 2;
+}
+
+.pictures:last-of-type {
+   grid-column: 2 / span 2;
+   grid-row: 1 / span 2;
+}
+
 /* IDs */
 #logo {
    height: 300px;
@@ -186,12 +196,17 @@ main h2 {
 
 #line1 {
    display: flex;
-   align-items: center;
    white-space: pre-line;
 }
 
 #line1 p {
    margin: 0;
+}
+
+#line1 img {
+   width: 100%;
+   border-radius: 30px;
+   border: 2px solid #95261F;
 }
 
 #line1text {
@@ -200,10 +215,9 @@ main h2 {
    color: #EDE5BB;
    padding: 20px;
    font-size: 1.2em;
-   margin: 0;
    font-weight: bold;
-   height: 100%;
-   width: 21vw;
+   margin-right: 5vw;
+   width: 51vw;
 
 }
 
@@ -225,6 +239,11 @@ main h2 {
    align-self: flex-end;
 }
 
+#line1pictures {
+   display: grid;
+   grid-template-rows: 1fr;
+}
+
 #line2 {
    padding-left: 80px;
    padding-right: 80px;
@@ -244,19 +263,18 @@ main h2 {
 }
 
 #line3text {
-   border-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
    padding: 20px;
    background-color: #95261F;
    color: #EBE5BB;
    font-size: 1.2em;
    font-weight: bold;
-   margin: 0px;
 }
 
 #line3 img {
    border-top-left-radius: 30px;
    border-bottom-left-radius: 30px;
-   margin-right: -40px;
    width: 100%;
    flex: 60%;
    height: auto;

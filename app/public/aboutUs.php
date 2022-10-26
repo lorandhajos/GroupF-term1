@@ -27,8 +27,14 @@
                         their coffee and sweets of
                         choice.</p>
                   </div>
-                  <img id="pic1" src="images/coffeeCroissant.jpg" alt="line1 pic1">
-                  <img id="pic2" src="images/pastries.jpg" alt="line1 pic2">
+                  <div id="line1pictures">
+                     <div class="pictures">
+                        <img src="images/coffeeCroissant.jpg" alt="line1 pic1">
+                     </div>
+                     <div class="pictures">
+                        <img src="images/pastries.jpg" alt="line1 pic2">
+                     </div>
+                  </div>
                </div>
                <div id="line2">
                   <h3>Our goal for our customers is to provide the experience of walking into an authentic French café on the countryside.</h3>
