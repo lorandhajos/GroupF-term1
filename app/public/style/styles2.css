@@ -286,7 +286,7 @@ main h2 {
    font-weight: bold;
 }
 
-.containerLearnMore{
+.containerLearnMore2{
    position: absolute;
    width: 1500px;
    height: 970px;
@@ -299,19 +299,22 @@ main h2 {
    border-radius: 50px;
 }
 
-.box{
+.box2{
    display: grid;
    grid-template-columns: 50% 50%;
+   background: #EDE5BB;
+   box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
+   border-radius: 50px;
    width: 1500px;
-   height: 550px;   
+   height: 2000px;   
 }
 
-.ingredients{
+.ingredients2{
    grid-column-start: 1;
    grid-column-end: 2;
 }
 
-.recipieText1{
+.recipieText12{
    margin: auto;
    width:60%;
    text-align: center;
@@ -322,22 +325,22 @@ main h2 {
    color: #95261F;
 }
 
-.recipieIngredients{
+.recipieIngredients2{
    left:132px;
    font-size:20px;
    margin-left: 100px;
    color: #95261F;
    text-align: center;
    width:500px;
-   height:100px;
+   height:1000px;
 }
 
-.preparation{
+.preparation2{
    grid-column-start: 2;
    grid-column-end: 3;
 }
 
-.recipieText2{
+.recipieText22{
    margin: auto;
    width:60%;
    margin-top: 100px;
@@ -348,19 +351,22 @@ main h2 {
    color: #95261F;
 }
 
-.recipiePreparation{
+.recipiePreparation2{
    left: 132px;
    font-size:20px;
    margin-left : 100px;
    color: #95261F;
    text-align:center;
    width:500px;
-   height:100px;
+   height:2000px;
 }
 
-.video{
- text-align:center;
+.video2{
+   position: absolute;
+   margin-left: 100px;
+   top: 500px;
 }
+
 
 /* IDs */
 #findUsHeading {
