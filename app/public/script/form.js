@@ -6,9 +6,11 @@ var name = document.getElementById("name");
 var email = document.getElementById("email");
 var tel = document.getElementById("tel");
 
-button.onclick = function() {
-   form.style.display = "block";
-   formBg.style.display = "block";
+if (typeof button !== 'undefined') {
+   button.onclick = function() {
+      form.style.display = "block";
+      formBg.style.display = "block";
+   }
 }
 
 function signupSubmit() {
@@ -20,7 +22,9 @@ function signupSubmit() {
    alert("Your details has been submitted successfully");
 }
 
-form.addEventListener('submit', signupSubmit);
+if (form !== null) {
+   form.addEventListener('submit', signupSubmit);
+}
 
 window.onclick = function(event) {
    if (event.target == formBg) {
