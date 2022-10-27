@@ -288,8 +288,8 @@ main h2 {
 
 .containerLearnMore{
    position: absolute;
-   width: 1470px;
-   height: 800px;
+   width: 1450px;
+   height: 970px;
    left: 10.94%;
    right: 10.94%;
    top: 166px;
@@ -302,8 +302,8 @@ main h2 {
 .box{
    display: grid;
    grid-template-columns: 50% 50%;
-   width: 1500px;
-   height: 800px;   
+   width: 1450px;
+   height: 970px;   
 }
 
 .ingredients{

@@ -288,8 +288,6 @@ main h2 {
 
 .containerLearnMore2{
    position: absolute;
-   width: 1500px;
-   height: 970px;
    left: 10.94%;
    right: 10.94%;
    top: 166px;
@@ -300,25 +298,22 @@ main h2 {
 }
 
 .box2{
-   display: grid;
-   grid-template-columns: 50% 50%;
    background: #EDE5BB;
    box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
-   border-radius: 50px;
-   width: 1500px;
-   height: 2000px;   
+   border-radius: 50px;  
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-around;
 }
 
 .ingredients2{
-   grid-column-start: 1;
-   grid-column-end: 2;
+   width: 100%;
 }
 
 .recipieText12{
-   margin: auto;
+   margin: 0;
    width:60%;
    text-align: center;
-   margin-top:100px;
    font-family: 'Circular Std Book Italic';
    font-size: 60px;
    line-height: 75px;
@@ -326,18 +321,33 @@ main h2 {
 }
 
 .recipieIngredients2{
-   left:132px;
    font-size:20px;
    margin-left: 100px;
    color: #95261F;
    text-align: center;
-   width:500px;
-   height:1000px;
 }
 
 .preparation2{
-   grid-column-start: 2;
-   grid-column-end: 3;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.preparation2 h2 {
+   width: 100%;
+}
+
+.preparation2 div {
+   width: 40%;
+}
+
+.preparation2 b {
+   color: #95261F;
+}
+
+.preparation2 p {
+   color: #95261F;
 }
 
 .recipieText22{
@@ -359,12 +369,11 @@ main h2 {
    text-align:center;
    width:500px;
    height:2000px;
+   
 }
 
 .video2{
-   position: absolute;
    margin-left: 100px;
-   top: 500px;
 }
 
 
