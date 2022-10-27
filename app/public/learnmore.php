@@ -26,18 +26,18 @@
       <div class="preparation">
          <h2 class="recipieText2">How to make</h2>
             <div class="recipiePreparation">
-               <p style="font-size:27px"><b><i>Step One</i></b></p>
+               <p><b><i>Step One</i></b></p>
                <p>In a glass mug mix togheter kahlua, cointreau and coffee.</p>
                <p>Stir in sugar.</p>
-               <p style="font-size:27px"><b><i>Step Two</i></b></p>
+               <p><b><i>Step Two</i></b></p>
                <p>Top with whipped cream and chocolate shavings.</p>
             </div>
-      </div>
       </div>
       <div class="video">
          <iframe width="560" height="315" src="https://www.youtube.com/embed/5HhWpvp55Zk" title="YouTube video player" frameborder="0"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
          </iframe>
+      </div>
       </div>
    </div>
 <footer>
