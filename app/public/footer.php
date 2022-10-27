@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <div id="footerFlex">
    <div class="social">
       <div>

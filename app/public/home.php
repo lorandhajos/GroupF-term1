@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <!-- heroBanner -->
 <section class="heroBanner">
    <h1>café avec une touche française</h1>
