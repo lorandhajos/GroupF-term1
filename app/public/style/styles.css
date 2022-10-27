@@ -659,16 +659,16 @@ main p {
 .content {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: flex-end;
    width: 100%;
 }
 
-.content div h3 {
+.content h3 {
    margin-bottom: 10px;
 }
 
-.content div p {
+.content p {
    position: relative;
    left: 10px;
    font-family: CircularStd-Light;
@@ -1153,4 +1153,109 @@ main p {
    left: 50%;
    margin-top: 15px;
    font-weight: bold;
+}
+
+@media only screen and (min-width: 577px) {
+   .recipe > h3, .recipe > p, .recipe > a {
+      display: none;
+   }
+
+   .line {
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   body {
+      padding: 0;
+      margin: 0;
+   }
+
+   .recipes h2 {
+      padding: 30px 23px;
+   }
+
+   body h3 {
+      font-size: 20px;
+   }
+
+   .gridContainer {
+      grid-template-columns: 100%;
+   }
+
+   main {
+      grid-column: 1/2;
+      border-radius: 0;
+      outline: none;
+   }
+
+   .recipe {
+      border-radius: 0;
+      outline: none;
+      margin: 21px 15px 0px 22px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+   }
+
+   .recipe img {
+      width: 140px;
+      height: 140px;
+   }
+
+   .recipe h3 {
+      margin-left: 15px;
+      flex: 50%;
+   }
+
+   .content {
+      display: none;
+   }
+
+   .button {
+      height: auto;
+      width: 100%;
+      margin: 0;
+      font-size: 24px;
+      padding: 5px;
+      box-sizing: border-box;
+   }
+
+   .line {
+      display: block;
+   }
+
+   .lessonContent {
+      margin-top: 10px;
+      margin-bottom: 20px;
+   }
+
+   .lessonContent h2 {
+      padding: 0;
+      padding-left: 4%;
+   }
+
+   .lessonContent div p {
+      font-size: 20px;
+      margin: 0;
+      margin-bottom: 20px;
+      left: 0;
+   }
+
+   .lessonContent div div {
+      margin: 0;
+   }
+
+   .signUp {
+      display: flex;
+   }
+
+   .signupButton {
+      height: auto;
+      width: 100%;
+      margin: 0;
+      font-size: 24px;
+      padding: 5px;
+      box-sizing: border-box;
+   }
+
 }
