@@ -286,80 +286,14 @@ main h2 {
    font-weight: bold;
 }
 
-.containerLearnMore{
-   position: absolute;
-   width: 1450px;
-   height: 970px;
-   left: 10.94%;
-   right: 10.94%;
-   top: 166px;
-   bottom: 285px;
-   background: #EDE5BB;
-   box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
-   border-radius: 50px;
+.box {
+   padding: 30px;
+   display: flex;
+   justify-content: space-around;
 }
 
-.box{
-   display: grid;
-   grid-template-columns: 50% 50%;
-   width: 1450px;
-   height: 970px;   
-}
-
-.ingredients{
-   grid-column-start: 1;
-   grid-column-end: 2;
-}
-
-.recipieText1{
-   margin: auto;
-   width:60%;
-   text-align: center;
-   margin-top:100px;
-   font-family: 'Circular Std Book Italic';
-   font-size: 60px;
-   line-height: 75px;
-   color: #95261F;
-}
-
-.recipieIngredients{
-   left:132px;
-   font-size:20px;
-   margin-left: 100px;
-   color: #95261F;
-   text-align: center;
-   width:500px;
-   height:100px;
-}
-
-.preparation{
-   grid-column-start: 2;
-   grid-column-end: 3;
-}
-
-.recipieText2{
-   margin: auto;
-   width:60%;
-   margin-top: 100px;
-   text-align:center;
-   font-family: 'Circular Std Book Italic', serif;
-   font-size: 60px;
-   line-height: 75px;
-   color: #95261F;
-}
-
-.recipiePreparation{
-   left: 132px;
-   font-size:20px;
-   margin-left : 100px;
-   color: #95261F;
-   text-align:center;
-   width:500px;
-   height:100px;
-}
-
-.video{
- text-align:center;
+.howToContent{
+   width: 45%;
 }
 
 /* IDs */

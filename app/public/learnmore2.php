@@ -1,21 +1,21 @@
-<div class="box2">
-   <div class="ingredients2">
-      <h1 class="recipieText12">Ingredients</h1>
-         <div class="recipieIngredients2">
-            <p><b>1-1/2 cups</b> warm milk</p>
-            <p><b>1/4 cup</b> light brown sugar</p>
-            <p><b>1+1/4 teaspoon</b> dry yeast</p>
-            <p><b>3-4 cups</b> flour</p>
-            <p><b>1 teaspoon</b> salt</p>
-            <p><b>1-1/2 cups</b> cold water</p>
-         </div>
+<div class="box">
+   <div>
+      <h2>Ingredients</h2>
+      <div>
+         <p><b>1-1/2 cups</b> warm milk</p>
+         <p><b>1/4 cup</b> light brown sugar</p>
+         <p><b>1+1/4 teaspoon</b> dry yeast</p>
+         <p><b>3-4 cups</b> flour</p>
+         <p><b>1 teaspoon</b> salt</p>
+         <p><b>1-1/2 cups</b> cold water</p>
+      </div>
+      <div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/hJxaVD6eAtc" title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
    </div>
-   <div class="video2">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/hJxaVD6eAtc" title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-   <div class="preparation2">
-      <h2 class="recipieText22">How to make</h2>
+   <div class="howToContent">
+      <h2>How to make</h2>
       <div>
          <b><i>Step One</i></b>
          <p>Stir together warm milk, brown sugar, and yeast in bowl of standing mixer and let stand until foamy, about 5 minutes.</p>
@@ -51,7 +51,7 @@
       <div>
          <b><i>Step Seven</i></b>
          <p>Make 3 more folds in same manner, chilling dough 1 hour after each fold, for a total of 4 folds.</p>
-         <p>Wrap dough tightly in plastic wrap and chill at least 8 hours but no more than 18</p>
+         <p>Wrap dough tightly in plastic wrap and chill at least 8 hours but no more than 18.</p>
       </div>
    </div>
 </div>
