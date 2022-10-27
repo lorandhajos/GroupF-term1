@@ -252,7 +252,82 @@
 @keyframes fadeIn {
    from { opacity: 0; }
    to   { opacity: 1; }
- }
+}
+
+@media screen and (max-width:576px) {
+   main {
+      padding-bottom: 20px !important;
+   }
+
+   footer {
+      border-radius: 0 !important;
+   }
+
+   .heroBanner {
+      border-radius: 0 !important;
+      height: 21vh !important;
+   }
+
+   .heroBanner h1 {
+      font-size: 8vw !important;
+      -webkit-text-stroke: 1px black !important;
+   }
+
+   .productFlex {
+      margin: 0 30px !important;
+      gap: 30px;
+      padding: 0 !important;
+   }
+
+   .products h2 {
+      font-size: 2.5em !important;
+   }
+
+   .product h3 {
+      font-size: 1.5em !important;
+   }
+
+   .product img {
+      height: 140px !important;
+      max-width: 150px !important;
+   }
+
+   .product {
+      margin: 0 !important;
+   }
+
+   .instructionsTitle {
+      font-size: 2em;
+   }
+
+   .bakeCroissantsImg {
+      margin: 0 !important;
+   }
+
+   .textImgFlex div {
+      margin: 10px 0 !important;
+   }
+
+   .textImgFlex p {
+      text-align: left;
+      margin: 0 !important;
+   }
+
+   .toLessonsBtn {
+      width: 100% !important;
+      height: 50px !important;
+   }
+   
+   .findUs {
+      height: 30vh !important;
+   }
+
+   #findusButton {
+      height: 45px !important;
+      width: 200px !important;
+      font-size: 2em !important;
+   }
+}
 
 @media screen and (max-width:576px) {
    .gridContainer {
