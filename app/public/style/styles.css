@@ -56,11 +56,11 @@
       margin-top: 0px !important;
       box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25) !important;
    }
-   
+
    #footerFlex {
       display: flex !important;
-      flex-direction: row !important;
-      flex-wrap: wrap;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
       justify-content: space-between;
       margin-left: 15px !important;
    }
