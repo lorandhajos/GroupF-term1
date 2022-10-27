@@ -1,11 +1,12 @@
-<?php if(!defined("OUI")) exit; ?>
-
-<a href="index.php"><img class="logo" src="images/logo.svg" alt="logo"></a>
-<nav>
-   <ul> 
-      <li><a href="index.php?page=menu">Menu</a></li>
-      <li><a href="index.php?page=findUs">Find Us</a></li>
-      <li><a href="index.php?page=aboutUs">About Us</a></li>
-      <li><a href="index.php?page=instruction">Instruction</a></li>
-   </ul>
-</nav>
+<link rel="stylesheet" href="style/styles.css">
+<header>
+   <img src="images/logo.svg" alt="logo" id="logo">
+   <nav>
+      <ul> 
+         <li>Menu</li>
+         <li>Find Us</li>
+         <li>About Us</li>
+         <li>Instruction</li>
+      </ul>
+   </nav>
+</header>
