@@ -142,33 +142,39 @@ main h2 {
    margin-left: 60px;
    justify-content: space-between;
 }
+
 .recipes {
    background-color: #EDE5BB;
    font-family: CircularStd-BookItalic;
    color: #95261F;
 }
+
 .homeInstructionsBox {
    background-color: #EDE5BB;
-   font-family: CircularStd;
+   font-family: CircularStd-Light;
    text-align: center;
    border-radius: 50px;
+   font-size: 1.5em;
    color: #95261F;
 }
 
 .instructionsTitle {
    font-family: Caveat;
 }
+
 .instructionsFlex {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: space-between;
 }
+
 .textImgFlex {
    display: flex;
    flex-direction: column;
    justify-content: space-around;
 }
+
 .bakeCroissantsImg {
    width: 400px;
    border-radius: 50px;
