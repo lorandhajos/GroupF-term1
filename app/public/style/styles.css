@@ -358,6 +358,56 @@ main p {
    grid-template-columns: repeat(7,1fr);
 }
 
+.homeInstructionsBox {
+   background-color: #EDE5BB;
+   font-family: CircularStd-Light;
+   text-align: center;
+   border-radius: 50px;
+   font-size: 1.5em;
+   color: #95261F;
+}
+
+.instructionsTitle {
+   font-family: Caveat;
+}
+
+.instructionsFlex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: space-between;
+}
+
+.textImgFlex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.bakeCroissantsImg {
+   width: 400px;
+   border-radius: 50px;
+   height: auto;
+   margin-bottom: 40px;
+}
+
+.toLessonsBtn {
+   grid-row: 3/4;
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   border: 0px;
+   height: 40px;
+   width: 300px;
+   font-size: 1.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
 .social {
    display: flex;
    flex-direction: column;
