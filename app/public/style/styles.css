@@ -49,6 +49,78 @@
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
 
+@media screen and (max-width: 840px){
+   header {
+      justify-content: space-between !important;
+      box-shadow: 4px 4px rgba(0, 0, 0, 0.25) !important;
+      border-radius: 0px !important;
+      margin: 0 !important;
+      height: unset !important;
+   }
+
+   nav {
+      width: auto !important;
+   }
+
+   nav ul {
+      display: grid !important;
+      justify-content: space-around !important;
+      padding-left: 0px !important;
+      overflow: hidden;
+      margin: 0;
+   }
+
+   nav li {
+      margin: 15px !important;
+   }
+
+   nav li > a {
+      display: block;
+   }
+
+   .hamburger {
+      display: block !important;
+   }
+
+   .hamburger.active .bar:nth-child(2){
+      opacity: 0 !important;
+   }
+
+   .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg) !important;
+   }
+
+   .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg) !important;
+   }
+   
+   .nav-menu{
+      position: absolute !important;
+      right: 0 !important;
+      padding-left: 30px !important;
+      height: 100% !important;
+      flex-direction: column !important;
+      background-color: #EDE5BB !important;
+      width: 50% !important;
+      text-align: left !important;
+      transition: 0.3s !important;
+      display: none !important;
+      top: 65px !important;
+   }
+
+   .nav-menu.active {
+      display: block !important;
+   }
+
+   .logo {
+      height: 60px !important;
+   }
+
+   #mobileLine {
+      border-bottom: solid #95261F;
+   }
+}
+
 @media screen and (max-width: 840px) {
    footer {
       padding-top: 0px !important;
@@ -606,6 +678,36 @@ main p {
    font-size: 3em;
    text-align: center;
    margin: 30px 0;
+}
+
+.nav-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 0px;
+}   
+
+.nav-link {
+   transition: 0.7s ease;
+}
+
+.nav-link:hover {
+   color: #828282;
+}
+
+.hamburger {
+   display: none;
+   cursor: point;
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: #95261F;
 }
 
 /* IDs */
