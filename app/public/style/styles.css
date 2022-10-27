@@ -60,6 +60,7 @@
       grid-column: 1/8 !important;
       box-shadow: 2px 2px 5px grey !important;
       border-radius: 0px !important;
+      color: #95261F !important;
    }
 
    /* Classes */
@@ -92,7 +93,7 @@
 
    a {
       text-decoration: none !important;
-      color: #EDE5BB !important;
+      color: #95261F !important;
    }
 
    body h2 {
@@ -141,12 +142,17 @@
       padding-left: 30px !important;
       height: 100% !important;
       flex-direction: column !important;
-      background-color: #95261F !important;
+      background-color: #EDE5BB !important;
       width: 50% !important;
       text-align: left !important;
       transition: 0.3s !important;
       display: none !important;
-      box-shadow: 0 4px 2px -2px black !important;
+   }
+
+   #mobileLine {
+      border-bottom: solid #95261F;
+      padding-bottom: 10px;
+      padding-right: 50%;
    }
 
    .nav-menu.active{
