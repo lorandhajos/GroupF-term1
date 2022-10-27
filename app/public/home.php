@@ -26,3 +26,7 @@
       </div>
    </div>
 </section>
+<!-- findUs -->
+<section class="findUs">
+   <a href="index.php?page=findUs" id="findusButton">Find Us!</a>
+</section>
