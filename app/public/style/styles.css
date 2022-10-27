@@ -369,6 +369,8 @@ main p {
 
 .instructionsTitle {
    font-family: Caveat;
+   text-align: center;
+   font-weight: normal;
 }
 
 .instructionsFlex {
