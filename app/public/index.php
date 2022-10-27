@@ -21,6 +21,7 @@
       <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
       <script src="script/map.js" defer></script>
       <script src="script/form.js" defer></script>
+      <script src="script/hamburger.js" defer></script>
    </head>
    <body>
       <div class="gridContainer">
