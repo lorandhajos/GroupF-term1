@@ -48,6 +48,14 @@
                      include("instruction.php");
                      break;
 
+                     case "learnMore":
+                     include("learnMore.php");
+                     break;
+
+                     case "learnMore2":
+                     include("learnMore2.php");
+                     break;
+
                      default:
                      include("home.php");
                   }

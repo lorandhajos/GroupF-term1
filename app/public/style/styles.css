@@ -813,6 +813,16 @@ main p {
    background-color: #95261F;
 }
 
+.box {
+   padding: 30px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.howToContent{
+   width: 45%;
+}
+
 /* IDs */
 #findUsHeading {
    grid-column: 2/16;
