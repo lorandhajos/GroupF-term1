@@ -44,12 +44,12 @@
                      include("instruction.php");
                      break;
 
-                     case "learnmore":
-                     include("learnmore.php");
+                     case "learnMore":
+                     include("learnMore.php");
                      break;
 
-                     case "learnmore2":
-                     include("learnmore2.php");
+                     case "learnMore2":
+                     include("learnMore2.php");
                      break;
 
                      default:
