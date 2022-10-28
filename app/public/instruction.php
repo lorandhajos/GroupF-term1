@@ -10,7 +10,7 @@
          <h3 class="hidden">How do I make good french coffee?</h3>
          <div class="content">
             <h3 class="visible">How do I make good french coffee?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Click on learn more to get the real authentic french coffee experience</p>
             <a href="index.php?php=frenchCoffee" class="button">Learn More</a>
          </div>
       </div>
@@ -19,7 +19,7 @@
          <h3 class="hidden">How do I make good french pastry?</h3>
          <div class="content">
             <h3 class="visible">How do I make good french pastry?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Click on learn more to get the real authentic croissant baking experience</p>
             <a href="index.php?php=croissant" class="button">Learn More</a>
          </div>
       </div>
@@ -28,9 +28,7 @@
       <h2>Lessons</h2>
       <div>
          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisi augue, euismod id purus sed, dignissim dignissim arcu. Nunc facilisis purus a dignissim faucibus. 
-               Pellentesque nec semper sapien. Quisque elementum quam metus, sit amet placerat nulla vulputate eu. Sed nec volutpat elit, sed mattis nunc. 
-               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inc</p>
+            <p>Having trouble following instructions online? Maybe our weekly lessons on how to do french specialties! Or if you are just bored you are also welcome to join our course, just fill out the sign up form and visit us!</p>
             <div class="signUp">
                <a href="#" class="signupButton">Sign Up</a>
             </div>
