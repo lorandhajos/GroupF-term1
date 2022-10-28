@@ -9,8 +9,10 @@
          <img src="images/coffeeBeans1.jpg" alt="Steming coffee is being pured from a french press into a glass cup">
          <h3 class="hidden">How do I make good french coffee?</h3>
          <div class="content">
-            <h3 class="visible">How do I make good french coffee?</h3>
-            <p>Click on learn more to get the real authentic french coffee experience</p>
+            <div>
+               <h3 class="visible">How do I make good french coffee?</h3>
+               <p>Click on learn more to get the real authentic french coffee experience</p>
+            </div>
             <a href="index.php?page=frenchCoffee" class="button">Learn More</a>
          </div>
       </div>
@@ -18,8 +20,10 @@
          <img src="images/croissant2.jpg" alt="Coffee">
          <h3 class="hidden">How do I make good french pastry?</h3>
          <div class="content">
-            <h3 class="visible">How do I make good french pastry?</h3>
-            <p>Click on learn more to get the real authentic croissant baking experience</p>
+            <div>
+               <h3 class="visible">How do I make good french pastry?</h3>
+               <p>Click on learn more to get the real authentic croissant baking experience</p>
+            </div>
             <a href="index.php?page=croissant" class="button">Learn More</a>
          </div>
       </div>
