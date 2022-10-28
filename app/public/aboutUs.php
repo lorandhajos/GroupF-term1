@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <section id="aboutUs">
    <h1>About Us</h1>
    <div id="line1">

@@ -49,6 +49,117 @@
    src: url(fonts/CircularStd/CircularStd-MediumItalic.otf);
 }
 
+@media screen and (max-width: 840px){
+   header {
+      justify-content: space-between !important;
+      box-shadow: 4px 4px rgba(0, 0, 0, 0.25) !important;
+      border-radius: 0px !important;
+      margin: 0 !important;
+      height: unset !important;
+   }
+
+   nav {
+      width: auto !important;
+   }
+
+   nav ul {
+      display: grid !important;
+      justify-content: space-around !important;
+      padding-left: 0px !important;
+      overflow: hidden;
+      margin: 0;
+   }
+
+   nav li {
+      margin: 15px !important;
+   }
+
+   nav li > a {
+      display: block;
+   }
+
+   .hamburger {
+      display: block !important;
+   }
+
+   .hamburger.active .bar:nth-child(2){
+      opacity: 0 !important;
+   }
+
+   .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg) !important;
+   }
+
+   .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg) !important;
+   }
+   
+   .nav-menu{
+      position: absolute !important;
+      right: 0 !important;
+      padding-left: 30px !important;
+      height: 100% !important;
+      flex-direction: column !important;
+      background-color: #EDE5BB !important;
+      width: 50% !important;
+      text-align: left !important;
+      transition: 0.3s !important;
+      display: none !important;
+      top: 65px !important;
+   }
+
+   .nav-menu.active {
+      display: block !important;
+   }
+
+   .logo {
+      height: 60px !important;
+   }
+
+   #mobileLine {
+      border-bottom: solid #95261F;
+   }
+}
+
+@media screen and (max-width: 840px) {
+   footer {
+      padding-top: 0px !important;
+      padding-left: 0px !important;
+      margin-top: 0px !important;
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25) !important;
+   }
+
+   #footerFlex {
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      justify-content: space-between;
+      margin-left: 15px !important;
+   }
+
+   .social {
+      order: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 0px;
+      margin: 0;
+   }
+
+   #footerFlex > p {
+      font-family: CircularStd-Light;
+   }
+
+   .verticalLine {
+      border: 0px !important; 
+   }
+   
+   .textContainer {
+      display: block !important;
+      margin-bottom: 14px;
+   }
+}
+
 @media (max-width: 576px) {
    main {
       border-radius: 0px !important;
@@ -135,6 +246,44 @@
    to   { opacity: 1; }
  }
 
+@media screen and (max-width:576px) {
+   .gridContainer {
+      display: block !important;
+   }
+
+   .menuFlex {
+      display: block !important;
+   }
+
+   .menuFlex .page {
+      width: 100% !important;
+   }
+
+   .menu h1 {
+      display: none;
+   }
+
+   .menuFlex h3 {
+      font-size: 2.5em !important;
+      text-align: center;
+      padding: 20px 0 0 15px !important;
+      margin: 0px !important;
+   }
+
+   .page {
+      display: flex !important;
+      align-items: center !important;
+      flex-wrap: wrap !important;
+   }
+
+   .menuContext {
+      width: 90% !important;
+      margin: auto !important;
+      box-sizing: unset !important;
+      border: unset !important;
+   }
+}
+
 /* HTML Tags */
 header {
    display: flex;
@@ -143,13 +292,6 @@ header {
    align-items: center;
    border-radius: 50px;
    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-   margin-bottom: 21px;
-}
-
-nav {
-   grid-column: 2/7;
-   font-family: Caveat;
-   font-size: 1.5em;
    margin: 21px 0;
    height: 100px;
 }
@@ -252,6 +394,58 @@ main p {
 .gridContainer {
    display: grid;
    grid-template-columns: repeat(7,1fr);
+}
+
+.homeInstructionsBox {
+   background-color: #EDE5BB;
+   font-family: CircularStd-Light;
+   text-align: center;
+   border-radius: 50px;
+   font-size: 1.5em;
+   color: #95261F;
+}
+
+.instructionsTitle {
+   font-family: Caveat;
+   text-align: center;
+   font-weight: normal;
+}
+
+.instructionsFlex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: space-between;
+}
+
+.textImgFlex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.bakeCroissantsImg {
+   width: 400px;
+   border-radius: 50px;
+   height: auto;
+   margin-bottom: 40px;
+}
+
+.toLessonsBtn {
+   grid-row: 3/4;
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   border: 0px;
+   height: 40px;
+   width: 300px;
+   font-size: 1.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
 }
 
 .social {
@@ -571,9 +765,10 @@ main p {
 
 .productFlex {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    margin: 0 60px;
    flex-wrap: wrap;
+   padding: 5px;
 }
 
 .products h2 {
@@ -587,6 +782,7 @@ main p {
    display: flex;
    align-items: center;
    flex-direction: column;
+   margin: 10px;
 }
 
 .product img {
@@ -727,18 +923,71 @@ main p {
 
 .pictures:first-of-type {
    grid-column: 1 / span 2;
-   grid-row: 2 / span 2;
+   grid-row: 1 / span 2;
 }
 
 .pictures:last-of-type {
    grid-column: 2 / span 2;
-   grid-row: 1 / span 2;
+   grid-row: 2 / span 2;
 }
 
 .instruction > h1{
    font-size: 3em;
    text-align: center;
    margin: 30px 0;
+}
+
+.findUs {
+   width: 100%;
+   height: 400px;
+   object-fit: fill;
+   background-image: url("/images/croissant1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav-menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 0px;
+}   
+
+.nav-link {
+   transition: 0.7s ease;
+}
+
+.nav-link:hover {
+   color: #828282;
+}
+
+.hamburger {
+   display: none;
+   cursor: point;
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: #95261F;
+}
+
+.box {
+   padding: 30px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.howToContent{
+   width: 45%;
 }
 
 /* IDs */
@@ -749,11 +998,26 @@ main p {
    justify-content: center;
 }
 
+#findusButton {
+   text-decoration: none;
+   color: #EDE5BB;
+   font-family: CircularStd-BookItalic;
+   background-color: #95261F;
+   border-radius: 50px;
+   height: 64px;
+   width: 270px;
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 25px 10px 0;
+}
+
 #map {
    border-style: solid;
    border-width: 2px;
-   height: 48em;
-   width: 80em;
+   height: 80vh;
+   width: 60vw;
 }
 
 #contactContainer div p {
@@ -814,7 +1078,10 @@ main p {
 }
 
 #line2 {
-   padding: 40px 80px;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    font-weight: bold;
    font-style: italic;
 }
@@ -847,7 +1114,10 @@ main p {
 }
 
 #line4 {
-   padding: 40px 80px;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    font-weight: bold;
    font-style: italic;
 }

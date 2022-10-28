@@ -1,3 +1,5 @@
+<?php if(!defined("OUI")) exit; ?>
+
 <!-- heroBanner -->
 <section class="heroBanner">
    <h1>café avec une touche française</h1>
@@ -21,6 +23,25 @@
       <div class="product">
          <img src="images/macaron1.jpg" alt="macaron francais">
          <h3>Macaron</h3>
+      </div>
+   </div>
+</section>
+<!-- findUs -->
+<section class="findUs">
+   <a href="index.php?page=findUs" id="findusButton">Find Us!</a>
+</section>
+<!--Instructions section-->
+<section class="homeInstructionsBox">
+   <h2 class="instructionsTitle">Instructions</h2>
+   <div class="instructionsFlex">
+      <img src="images/bakeCroissant.jpg" alt="Making croissants" class="bakeCroissantsImg">
+      <div class="textImgFlex">
+         <div>
+            <p>Want to bake croissants like we do?</p>
+            <p>Then sign up for our lessons.</p>
+			<!--insert the lessons page into location.href = '' -->
+         </div>
+         <button type="button" class="toLessonsBtn" onclick="location.href='index.php?page=home'">Go to lessons</button>
       </div>
    </div>
 </section>
