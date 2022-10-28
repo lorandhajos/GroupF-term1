@@ -14,19 +14,6 @@ A NHLStenden student project in cooparation with an imaginary dutch french coffe
 * Lennox James Email: lennox.james@student.nhlstenden.com
 
 ## Git tutorial
-
-Everyone has their own branch to work on. Make sure you use that one.
-
-| Name             | Branch   |
-| -----------------| -------- |
-| Joey Krämer      | feature7 |
-| Grzegorz Tomkiel | feature6 |
-| Lorand Hajos     | feature3 |
-| Hakan Ege        | feature4 |
-| Iarina Dicu      | feature2 |
-| Andrii Chumakov  | feature5 |
-| Lennox James     | feature  |
-
 ### If you want to use git make sure you
 1. Open your terminal/console 
 2. Navigate to the folder where you have the project files ```cd GroupF-term1```

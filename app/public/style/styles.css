@@ -494,6 +494,25 @@
       padding: 5px !important;
       box-sizing: border-box !important;
    }
+
+   .youtubeFrameCroissant {
+      width: 100% !important;
+      padding: 30px 0px 30px 0px !important;
+   }
+
+   .youtubeFrameCoffee {
+      width: 100% !important;
+      height: 200px;
+      padding: 30px 0px 30px 0px !important;
+   }
+
+   .howToCroissant {
+      width: 90% !important;
+   }
+
+   .howToCoffee {
+      width: 90% !important;
+   }
 }
 
 @media print {
@@ -551,7 +570,7 @@ nav li {
 body {
    background-color: #EDE5BB;
    background-image: url("../images/background.svg");
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    margin: 0;
 }
 
@@ -572,6 +591,7 @@ footer {
    font-family: CircularStd-Book;
    border-radius: 50px 50px 0 0;
    padding-top: 10px;
+   padding-bottom: 50px;
    padding-left: 20px;
    margin-top: 35px;
    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.25);
@@ -802,7 +822,7 @@ main p {
    font-family: CircularStd-Light;
    font-size: 1.8em;
    margin-top: 15px;
-   margin-right: auto;
+   margin-right: 10px;
    margin-left: 4%;
 }
 
@@ -1031,31 +1051,39 @@ main p {
 .box {
    padding: 30px;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    flex-wrap: wrap;
+   padding: 20px 10% 30px 10%;
 }
 
 .box h2 {
    padding: 0px;
 }
 
-.howToContent {
+.howToCroissant {
    width: 75%;
    display: flex;
    align-items: flex-start;
    flex-direction: column;
 }
 
+.howToCoffee {
+   width: 45%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
 .youtubeFrameCoffee {
-   padding-top: 50px;
-   height: 400px;
-   width: 800px;
+   height: 20vw;
+   width: 100%;
+   padding: 50px 50px 30px 50px;
 }
 
 .youtubeFrameCroissant {
    padding-top: 60px;
-   width: 400px;
-   height: 200px;
+   width: 52%;
+   height: 250px;
 }
 
 .hidden {

@@ -18,7 +18,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
       <!-- leaflet libary -->
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="">
-      <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.2/leaflet.js" integrity="sha512-KMraOVM0qMVE0U1OULTpYO4gg5MZgazwPAPyMQWfOkEshpwlLQFCHZ/0lBXyviDNVL+pBGwmeXQnuvGK8Fscvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="script/map.js" defer></script>
       <script src="script/form.js" defer></script>
       <script src="script/hamburger.js" defer></script>
