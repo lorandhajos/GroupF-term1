@@ -586,6 +586,7 @@ footer {
    font-family: CircularStd-Book;
    border-radius: 50px 50px 0 0;
    padding-top: 10px;
+   padding-bottom: 50px;
    padding-left: 20px;
    margin-top: 35px;
    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.25);
@@ -1069,7 +1070,7 @@ main p {
 }
 
 .youtubeFrameCoffee {
-   height: 400px;
+   height: 20vw;
    width: 100%;
    padding: 50px 50px 30px 50px;
 }
