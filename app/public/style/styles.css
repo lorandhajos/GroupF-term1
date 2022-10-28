@@ -353,6 +353,11 @@
    #contactContainer p {
       font-size: 1em !important;
    }
+
+   #form {
+      width: 100% !important;
+      left: 0 !important;
+   }
 }
 
 @media screen and (max-width: 576px) {
