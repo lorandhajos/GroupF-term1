@@ -39,9 +39,8 @@
          <div>
             <p>Want to bake croissants like we do?</p>
             <p>Then sign up for our lessons.</p>
-			<!--insert the lessons page into location.href = '' -->
          </div>
-         <button type="button" class="toLessonsBtn" onclick="location.href='index.php?page=home'">Go to lessons</button>
+         <a href="index.php?page=instruction" class="lessonsButton">Go to lessons</a>
       </div>
    </div>
 </section>
