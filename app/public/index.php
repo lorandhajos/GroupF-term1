@@ -48,12 +48,12 @@
                      include("instruction.php");
                      break;
 
-                     case "learnMore":
-                     include("learnMore.php");
+                     case "frenchCoffee":
+                     include("frenchCoffee.php");
                      break;
 
-                     case "learnMore2":
-                     include("learnMore2.php");
+                     case "croissant":
+                     include("croissant.php");
                      break;
 
                      default:

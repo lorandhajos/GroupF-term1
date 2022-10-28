@@ -12,7 +12,7 @@
                <h3>How do I make good french coffee?</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <a href="#" class="button">Learn More</a>
+            <a href="index.php?page=frenchCoffee" class="button">Learn More</a>
          </div>
       </div>
       <div class="recipe last">
@@ -22,7 +22,7 @@
                <h3>How do I make good french pastry?</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <a href="#" class="button">Learn More</a>
+            <a href="index.php?page=croissant" class="button">Learn More</a>
          </div>
       </div>
    </section>

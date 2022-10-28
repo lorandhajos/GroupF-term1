@@ -817,10 +817,30 @@ main p {
    padding: 30px;
    display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.box h2 {
+   padding: 0px;
 }
 
 .howToContent{
-   width: 45%;
+   width: 75%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.youtubeFrameCoffee {
+   padding-top: 50px;
+   height: 400px;
+   width: 800px;
+}
+
+.youtubeFrameCroissant {
+   padding-top: 60px;
+   width: 400px;
+   height: 200px;
 }
 
 /* IDs */
