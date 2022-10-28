@@ -13,7 +13,7 @@
       </div>
    </div>
    <iframe class="youtubeFrameCroissant" src="https://www.youtube.com/embed/hJxaVD6eAtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <div class="howToContent">
+   <div class="howToCroissant">
       <h2>How to make</h2>
       <div>
          <b><i>Step One</i></b>
