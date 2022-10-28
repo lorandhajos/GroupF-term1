@@ -335,11 +335,11 @@
    }
 
    .sideContent div h4 {
-      font-size: 1.4em !important;
+      font-size: 1.3em !important;
    }
 
    .sideContent table {
-      font-size: 1em !important;
+      font-size: 0.9em !important;
    }
 
    .leaflet-control-zoom {
@@ -361,12 +361,23 @@
    }
 
    #contactContainer p {
-      font-size: 1em !important;
+      font-size: 0.9em !important;
    }
 
    #form {
-      width: 100% !important;
+      width: 90% !important;
       left: 0 !important;
+      right: 0 !important;
+   }
+
+   #contactContainer div p {
+      margin-right: 0px !important;
+      
+   }
+   
+   
+   #contactContainer {
+      padding-right: 10px;
    }
 }
 
