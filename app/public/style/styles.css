@@ -106,7 +106,7 @@
       transition: 0.3s !important;
       display: none !important;
       top: 65px !important;
-      z-index: 500 !important;
+      z-index: 9000 !important;
    }
 
    .nav-menu.active {
