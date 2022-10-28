@@ -334,6 +334,7 @@
    .sideContent div h4 {
       font-size: 1.4em !important;
    }
+
    .sideContent table {
       font-size: 1em !important;
    }
@@ -359,8 +360,6 @@
    #contactContainer p {
       font-size: 1em !important;
    }
-
-   
 }
 
 @media screen and (max-width:576px) {
