@@ -63,6 +63,7 @@
                   include("home.php");
                }
             ?>
+            <div id="formBg1"></div>
          </main>
          <footer>
             <?php include("footer.php"); ?>
