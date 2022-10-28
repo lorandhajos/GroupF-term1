@@ -678,6 +678,153 @@ main p {
    margin-top: 15px;
    margin-right: auto;
    margin-left: 4%;
+   margin-right: 4%;
+}
+
+.subGrid {
+   display: grid;
+   grid-template-columns: repeat(16,1fr);
+   margin-bottom: 50px;
+}
+
+.mapsFrame {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.mapsFrame h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent {
+   grid-column: 2/16;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sideContent p {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+}
+
+.sideContent div h4 {
+   font-family: CircularStd-Light;
+   font-size: 1.6em;
+}
+
+.sideContent table {
+   font-family: CircularStd-Light;
+   font-size: 1.2em;
+   line-height: 1.7;
+}
+
+.boldParagraph {
+   font-weight: bold;
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   position: absolute;
+   width: 1500px;
+   height: 970px;
+   position: absolute;
+   left: 10.94%;
+   right: 10.94%;
+   top: 166px;
+   bottom: 285px;
+   background: #EDE5BB;
+   box-shadow: 4px 4px 10px 9px rgba(0, 0, 0, 0.25);
+   border-radius: 50px;
+}
+
+.drinks {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   position: absolute;
+}
+
+.drinkText {
+   position: absolute;
+   left: 65px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.drinkContext {
+   box-sizing: border-box;
+   position: absolute;
+   width: 668px;
+   height: 787px;
+   left:  65px;
+   top: 133px;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 40px;
+}
+
+.menuGrid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   position: relative;
+   left: 50px;
+}
+
+.menuGrid p {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.lastMenu {
+   text-align: center;
+}
+
+.bakedGoods {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   position: absolute;
+}
+
+.bakedGoodsText {
+   position: absolute;
+   width: 377px;
+   height: 75px;
+   left :20px;
+   top: -35px;
+   font-family: 'Circular Std Book Italic';
+   font-size: 64px;
+   line-height: 75px;
+   color: #95261F;
+}
+
+.bakedGoodsContext {
+   box-sizing: border-box;
+   position: absolute;
+   width: 668px;
+   height: 787px;
+   left: 20px;
+   top: 133px;
+   border: 4px solid #95261F;
+   border-radius: 50px;
+   font-family: 'Circular Std Book Italic', serif;
+   font-size: 40px;
+}
+
+.pictures:first-of-type {
+   grid-column: 1 / span 2;
+   grid-row: 2 / span 2;
+}
+
+.pictures:last-of-type {
+   grid-column: 2 / span 2;
+   grid-row: 1 / span 2;
 }
 
 .heroBanner {
