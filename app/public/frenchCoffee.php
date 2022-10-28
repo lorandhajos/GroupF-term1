@@ -12,7 +12,7 @@
             <p>Chocolate shaving,for granish - optional</p>
          </div>
    </div>
-   <div class="howToContent">
+   <div class="howToCoffee">
       <h2>How to make</h2>
          <div>
             <p><b><i>Step One</i></b></p>

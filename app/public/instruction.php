@@ -11,7 +11,7 @@
          <div class="content">
             <h3 class="visible">How do I make good french coffee?</h3>
             <p>Click on learn more to get the real authentic french coffee experience</p>
-            <a href="index.php?php=frenchCoffee" class="button">Learn More</a>
+            <a href="index.php?page=frenchCoffee" class="button">Learn More</a>
          </div>
       </div>
       <div class="recipe last">
@@ -20,7 +20,7 @@
          <div class="content">
             <h3 class="visible">How do I make good french pastry?</h3>
             <p>Click on learn more to get the real authentic croissant baking experience</p>
-            <a href="index.php?php=croissant" class="button">Learn More</a>
+            <a href="index.php?page=croissant" class="button">Learn More</a>
          </div>
       </div>
    </section>
