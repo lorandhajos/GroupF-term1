@@ -947,6 +947,12 @@ main p {
 }
 
 @media only screen and (max-width: 576px) {
+   .instruction h1 {
+      margin: 0 !important;
+      padding: 20px 0 0 15px !important;
+      font-size: 2.5em;
+   }
+
    .hidden {
       display: unset !important;
       margin: 0 !important;
@@ -958,13 +964,18 @@ main p {
       display: none;
    }
 
+   .content {
+      padding-bottom: 20px !important;
+   }
+
    .content p {
       margin: 6px 0 !important;
       font-size: 1.2em;
    }
 
    .recipes h2 {
-      padding: 30px 23px !important;
+      padding: 23px 23px 10px 23px !important;
+      font-size: 2em;
    }
 
    .gridContainer {
@@ -978,6 +989,7 @@ main p {
       flex-wrap: wrap !important;
       margin-bottom: 20px !important;
       flex-direction: row !important;
+      border-bottom: solid #95261F;
    }
 
    .recipe img {
