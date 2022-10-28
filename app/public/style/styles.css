@@ -385,6 +385,104 @@
    }
 }
 
+@media only screen and (max-width: 576px) {
+   .instruction h1 {
+      margin: 0 !important;
+      padding: 20px 0 0 15px !important;
+      font-size: 2.5em;
+   }
+
+   .hidden {
+      display: unset !important;
+      margin: 0 !important;
+      inline-size: 50vw !important;
+      overflow-wrap: break-word !important;
+   }
+
+   .visible {
+      display: none;
+   }
+
+   .content {
+      padding-bottom: 20px !important;
+   }
+
+   .content p {
+      margin: 6px 0 !important;
+      font-size: 1.2em;
+   }
+
+   .recipes h2 {
+      padding: 23px 23px 10px 23px !important;
+      font-size: 2em;
+   }
+
+   .gridContainer {
+      grid-template-columns: 100% !important;
+   }
+
+   .recipe {
+      border-radius: 0 !important;
+      outline: none !important;
+      margin: 21px 15px 0px 22px !important;
+      flex-wrap: wrap !important;
+      margin-bottom: 20px !important;
+      flex-direction: row !important;
+      border-bottom: solid #95261F;
+   }
+
+   .recipe img {
+      width: 140px !important;
+      height: 140px !important;
+      outline: unset !important;
+   }
+
+   .button {
+      height: auto !important;
+      width: 100% !important;
+      margin: 0 !important;
+      font-size: 24px !important;
+      padding: 5px !important;
+      box-sizing: border-box !important;
+   }
+
+   .line {
+      display: block !important;
+   }
+
+   .lessonContent {
+      padding-bottom: 20px !important;
+   }
+
+   .lessonContent h2 {
+      padding: 8px 0 8px 4% !important;
+   }
+
+   .lessonContent div p {
+      font-size: 20px !important;
+      margin: 0 !important;
+      margin-bottom: 20px !important;
+      left: 0 !important;
+   }
+
+   .lessonContent div div {
+      margin: 0 !important;
+   }
+
+   .signUp {
+      display: flex !important;
+   }
+
+   .signupButton {
+      height: auto !important;
+      width: 100% !important;
+      margin: 0 !important;
+      font-size: 24px !important;
+      padding: 5px !important;
+      box-sizing: border-box !important;
+   }
+}
+
 /* HTML Tags */
 header {
    display: flex;
@@ -1079,6 +1177,10 @@ main p {
    height: 200px;
 }
 
+.hidden {
+   display: none;
+}
+
 /* IDs */
 #findUsHeading {
    grid-column: 2/16;
@@ -1299,106 +1401,4 @@ main p {
    left: 50%;
    margin-top: 15px;
    font-weight: bold;
-}
-
-.hidden {
-   display: none;
-}
-
-@media only screen and (max-width: 576px) {
-   .instruction h1 {
-      margin: 0 !important;
-      padding: 20px 0 0 15px !important;
-      font-size: 2.5em;
-   }
-
-   .hidden {
-      display: unset !important;
-      margin: 0 !important;
-      inline-size: 50vw !important;
-      overflow-wrap: break-word !important;
-   }
-
-   .visible {
-      display: none;
-   }
-
-   .content {
-      padding-bottom: 20px !important;
-   }
-
-   .content p {
-      margin: 6px 0 !important;
-      font-size: 1.2em;
-   }
-
-   .recipes h2 {
-      padding: 23px 23px 10px 23px !important;
-      font-size: 2em;
-   }
-
-   .gridContainer {
-      grid-template-columns: 100% !important;
-   }
-
-   .recipe {
-      border-radius: 0 !important;
-      outline: none !important;
-      margin: 21px 15px 0px 22px !important;
-      flex-wrap: wrap !important;
-      margin-bottom: 20px !important;
-      flex-direction: row !important;
-      border-bottom: solid #95261F;
-   }
-
-   .recipe img {
-      width: 140px !important;
-      height: 140px !important;
-      outline: unset !important;
-   }
-
-   .button {
-      height: auto !important;
-      width: 100% !important;
-      margin: 0 !important;
-      font-size: 24px !important;
-      padding: 5px !important;
-      box-sizing: border-box !important;
-   }
-
-   .line {
-      display: block !important;
-   }
-
-   .lessonContent {
-      padding-bottom: 20px !important;
-   }
-
-   .lessonContent h2 {
-      padding: 8px 0 8px 4% !important;
-   }
-
-   .lessonContent div p {
-      font-size: 20px !important;
-      margin: 0 !important;
-      margin-bottom: 20px !important;
-      left: 0 !important;
-   }
-
-   .lessonContent div div {
-      margin: 0 !important;
-   }
-
-   .signUp {
-      display: flex !important;
-   }
-
-   .signupButton {
-      height: auto !important;
-      width: 100% !important;
-      margin: 0 !important;
-      font-size: 24px !important;
-      padding: 5px !important;
-      box-sizing: border-box !important;
-   }
 }
